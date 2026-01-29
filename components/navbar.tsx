@@ -24,6 +24,7 @@ export function Navbar() {
   const tWhatsApp = useTranslations('whatsapp');
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
     const handler = () => setScrolled(window.scrollY > 8);
@@ -64,11 +65,43 @@ export function Navbar() {
               {tWhatsApp('cta')}
             </a>
           </Button>
-          <Button variant="ghost" size="sm" className="lg:hidden" aria-label="Menu">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="lg:hidden"
+            aria-label="Menu"
+            onClick={() => setMenuOpen((prev) => !prev)}
+          >
             <Menu className="h-5 w-5" />
           </Button>
         </div>
       </div>
+      {menuOpen && (
+        <div className="border-t border-border bg-surface lg:hidden">
+          <div className="container-pad flex flex-col gap-4 py-4 text-sm">
+            {navKeys.map((item) => (
+              <Link
+                key={item.key}
+                href={`/${pathname.split('/')[1]}${item.href}`}
+                className="font-medium text-foreground/80"
+                onClick={() => setMenuOpen(false)}
+              >
+                {t(item.key)}
+              </Link>
+            ))}
+            <Button asChild>
+              <a
+                href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${message}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <MessageCircle className="h-4 w-4" />
+                {tWhatsApp('cta')}
+              </a>
+            </Button>
+          </div>
+        </div>
+      )}
     </header>
   );
 }
