@@ -1,0 +1,368 @@
+{
+  "nav": {
+    "home": "Home",
+    "catalog": "Catalogue",
+    "services": "Services",
+    "projects": "Projects",
+    "pricing": "Pricing",
+    "contact": "Contact"
+  },
+  "whatsapp": {
+    "cta": "WhatsApp Quote",
+    "prefill": "Hi, I’d like a quote for [service]. City: __. Area: __ m²."
+  },
+  "seo": {
+    "homeTitle": "Premium turf & plants",
+    "homeDescription": "VerdaTun delivers premium natural and artificial grass, plants, and landscaping services across Tunisia.",
+    "catalogTitle": "Catalogue",
+    "catalogDescription": "Explore our curated selection of natural turf, artificial turf, plants, and irrigation services.",
+    "servicesTitle": "Services",
+    "servicesDescription": "Installation, delivery, maintenance, and irrigation tailored to Tunisian gardens.",
+    "projectsTitle": "Projects",
+    "projectsDescription": "Browse recent gardens and premium green space transformations in Tunisia.",
+    "pricingTitle": "Pricing",
+    "pricingDescription": "Transparent pricing packages for lawns, turf, plants, and care.",
+    "contactTitle": "Contact",
+    "contactDescription": "Reach VerdaTun for quotes, advice, and site visits across Tunisia.",
+    "legalTitle": "Legal",
+    "legalDescription": "Legal mentions, privacy, and service policies for VerdaTun."
+  },
+  "common": {
+    "proofs": "Local sourcing | Fast delivery | Free consultation"
+  },
+  "home": {
+    "badge": "Tunisia • Premium Green Spaces",
+    "headline": "Premium green spaces built for Tunisia",
+    "subheadline": "Natural grass, artificial turf, plants, and full-service care with a premium finish.",
+    "primaryCta": "Request a WhatsApp quote",
+    "secondaryCta": "Browse catalogue",
+    "heroAlt": "Elegant garden design",
+    "categoriesTitle": "Our main categories",
+    "seeAll": "See all",
+    "discover": "Discover",
+    "categories": [
+      {
+        "title": "Natural grass",
+        "text": "Soft, breathable turf adapted to Tunisian climates.",
+        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+      },
+      {
+        "title": "Artificial grass",
+        "text": "Durable premium turf that stays lush year-round.",
+        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+      },
+      {
+        "title": "Plants & design",
+        "text": "Mediterranean plants and modern green design.",
+        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+      }
+    ],
+    "whyTitle": "Why VerdaTun",
+    "whySubtitle": "A premium experience from selection to maintenance.",
+    "why": {
+      "quality": {
+        "title": "Premium quality",
+        "text": "Carefully sourced turf and plants with consistent texture and color."
+      },
+      "warranty": {
+        "title": "Trusted warranty",
+        "text": "Clear follow-up and guidance after installation."
+      },
+      "delivery": {
+        "title": "Fast delivery",
+        "text": "Same-week delivery for Tunis, Sfax, Sousse, and beyond."
+      },
+      "installation": {
+        "title": "Expert installation",
+        "text": "Precision installation by our trained local team."
+      },
+      "irrigation": {
+        "title": "Smart irrigation",
+        "text": "Water-saving systems for Tunisian summers."
+      },
+      "care": {
+        "title": "Ongoing care",
+        "text": "Seasonal maintenance plans for evergreen results."
+      }
+    },
+    "packagesTitle": "Packages",
+    "packagesSubtitle": "Choose the level of finish your space deserves.",
+    "packagesCta": "Ask for details",
+    "packages": [
+      {
+        "title": "Essentials",
+        "text": "Natural or artificial turf with base prep.",
+        "price": "From 29 TND / m²"
+      },
+      {
+        "title": "Premium",
+        "text": "Turf + planting + smart irrigation.",
+        "price": "From 45 TND / m²"
+      },
+      {
+        "title": "Signature",
+        "text": "Custom landscape with lighting and maintenance.",
+        "price": "On request"
+      }
+    ],
+    "projectsTitle": "Recent projects",
+    "projectsSubtitle": "Elegant transformations across Tunisia.",
+    "projects": [
+      {
+        "title": "Villa garden, La Marsa",
+        "text": "Natural turf with palm accents and lighting."
+      },
+      {
+        "title": "Hotel patio, Hammamet",
+        "text": "Artificial turf for evergreen hospitality spaces."
+      },
+      {
+        "title": "Private courtyard, Sousse",
+        "text": "Mediterranean plants with drip irrigation."
+      }
+    ],
+    "testimonialsTitle": "Client stories",
+    "testimonialsSubtitle": "Trusted by Tunisian homeowners and businesses.",
+    "testimonials": [
+      {
+        "name": "Meriem B.",
+        "city": "Tunis",
+        "quote": "Clean installation and the grass looks incredible even in summer."
+      },
+      {
+        "name": "Walid K.",
+        "city": "Sfax",
+        "quote": "They managed delivery and setup in two days, very professional."
+      },
+      {
+        "name": "Hotel Nour",
+        "city": "Hammamet",
+        "quote": "Premium artificial turf that still looks natural."
+      }
+    ],
+    "ctaTitle": "Ready to upgrade your green space?",
+    "ctaSubtitle": "Talk to our team and get a tailored quote today.",
+    "ctaPrimary": "Start on WhatsApp",
+    "ctaSecondary": "Book a visit",
+    "faqTitle": "FAQ",
+    "faqSubtitle": "Answers to the questions we hear most often.",
+    "faq": [
+      {
+        "question": "Do you install outside Tunis?",
+        "answer": "Yes, we cover major cities and can travel across Tunisia."
+      },
+      {
+        "question": "How long does installation take?",
+        "answer": "Most projects are completed within 2 to 5 days depending on size."
+      },
+      {
+        "question": "Can you combine natural turf with plants?",
+        "answer": "Absolutely. We design mixed spaces with turf, plants, and irrigation."
+      }
+    ]
+  },
+  "catalog": {
+    "title": "Catalogue",
+    "subtitle": "Local stock, premium finishing, and a team ready to advise you.",
+    "search": "Search products",
+    "category": "Category",
+    "tag": "Tags",
+    "sort": "Sort",
+    "all": "All",
+    "natural": "Natural",
+    "artificial": "Artificial",
+    "plants": "Plants",
+    "service": "Services",
+    "allTags": "All tags",
+    "sortOptions": {
+      "popular": "Most popular",
+      "priceLow": "Price: low to high",
+      "priceHigh": "Price: high to low"
+    },
+    "tags": {
+      "premium": "Premium",
+      "soft": "Soft",
+      "durable": "Durable",
+      "easy-care": "Easy care",
+      "mediterranean": "Mediterranean",
+      "shade": "Shade",
+      "smart": "Smart",
+      "water-saving": "Water saving"
+    },
+    "status": {
+      "in_stock": "In stock",
+      "limited": "Limited",
+      "on_request": "On request"
+    },
+    "priceOnRequest": "Price on request",
+    "priceType": {
+      "sqm": "m²",
+      "unit": "unit",
+      "quote": "quote"
+    },
+    "priceValue": "{value} TND / {type}",
+    "cta": "Request quote"
+  },
+  "products": {
+    "naturalPremium": {
+      "name": "Natural Premium Turf",
+      "short": "Thick natural turf, perfect for villas and hotels.",
+      "long": "A dense, breathable natural grass with fresh texture, ideal for premium gardens in Tunisia."
+    },
+    "artificialPro": {
+      "name": "Artificial Pro Turf",
+      "short": "Lush artificial turf with a soft, natural look.",
+      "long": "Designed for high-traffic zones with a premium feel and minimal upkeep."
+    },
+    "plantsMediterranean": {
+      "name": "Mediterranean Plant Set",
+      "short": "Curated plant selection for Tunisian climates.",
+      "long": "Olive, rosemary, bougainvillea, and shade plants tailored for easy care."
+    },
+    "irrigationSmart": {
+      "name": "Smart Irrigation Setup",
+      "short": "Efficient watering for gardens and turf.",
+      "long": "Automated irrigation planning with timers and drip systems."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Complete support from installation to long-term care.",
+    "install": {
+      "title": "Installation",
+      "text": "Expert leveling, drainage, and turf installation."
+    },
+    "delivery": {
+      "title": "Delivery",
+      "text": "Fast logistics across Tunisia with careful handling."
+    },
+    "maintenance": {
+      "title": "Maintenance",
+      "text": "Seasonal cleaning, trimming, and care plans."
+    },
+    "irrigation": {
+      "title": "Irrigation",
+      "text": "Efficient systems that save water and keep plants fresh."
+    },
+    "processTitle": "How we work",
+    "process": [
+      {
+        "title": "Visit & measure",
+        "text": "We inspect your space and recommend the best option."
+      },
+      {
+        "title": "Design & quote",
+        "text": "A tailored proposal with clear pricing and timeline."
+      },
+      {
+        "title": "Install & follow-up",
+        "text": "Professional execution with post-install guidance."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "See our latest transformations across Tunisia.",
+    "items": [
+      {
+        "title": "Resort lounge lawn",
+        "text": "Artificial turf with smooth finishing for guests.",
+        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+      },
+      {
+        "title": "Family villa garden",
+        "text": "Natural grass with irrigation for summer comfort.",
+        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+      },
+      {
+        "title": "Green patio",
+        "text": "Plants and pergola-ready spaces with premium soil.",
+        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Clear packages for every space and budget.",
+    "cta": "Get a quote",
+    "plans": [
+      {
+        "title": "Starter",
+        "price": "From 29 TND / m²",
+        "features": [
+          "Base prep",
+          "Natural or artificial turf",
+          "Delivery"
+        ]
+      },
+      {
+        "title": "Premium",
+        "price": "From 45 TND / m²",
+        "features": [
+          "Turf + plants",
+          "Irrigation setup",
+          "Installation"
+        ]
+      },
+      {
+        "title": "Signature",
+        "price": "On request",
+        "features": [
+          "Custom design",
+          "Lighting",
+          "Maintenance plan"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "We reply quickly on WhatsApp or by phone.",
+    "name": "Name",
+    "phone": "Phone",
+    "city": "City",
+    "service": "Service",
+    "message": "Message",
+    "namePlaceholder": "Your name",
+    "phonePlaceholder": "+216...",
+    "cityPlaceholder": "Tunis, Sousse, Sfax...",
+    "servicePlaceholder": "Natural turf, irrigation, plants...",
+    "messagePlaceholder": "Tell us about your space",
+    "submit": "Send request",
+    "success": "Thanks! We will contact you shortly.",
+    "error": "Please fill this field",
+    "infoTitle": "Contact details",
+    "address": "Avenue Habib Bourguiba, Tunis (placeholder)",
+    "hours": "Mon-Sat • 08:00 - 19:00",
+    "mapPlaceholder": "Map placeholder (no API key)"
+  },
+  "legal": {
+    "title": "Legal",
+    "sections": [
+      {
+        "title": "Mentions",
+        "text": "This site is a showcase for VerdaTun in Tunisia."
+      },
+      {
+        "title": "Privacy",
+        "text": "We only use your contact information to reply to your requests."
+      },
+      {
+        "title": "Services",
+        "text": "Quotes depend on site visit and measurement."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Premium green spaces, turf, and plants with Tunisian expertise.",
+    "phone": "+216 XX XXX XXX",
+    "address": "Tunis, Tunisia (placeholder)",
+    "links": "Quick links",
+    "catalog": "Catalogue",
+    "services": "Services",
+    "projects": "Projects",
+    "legal": "Legal",
+    "social": "Social",
+    "copyright": "© 2024 VerdaTun. All rights reserved."
+  }
+}
