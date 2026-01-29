@@ -37,7 +37,8 @@ body {
 }
 
 .glassy {
-  @apply bg-surface/80 backdrop-blur-lg shadow-soft;
+  background-color: color-mix(in srgb, var(--surface) 80%, transparent);
+  @apply backdrop-blur-lg shadow-soft;
 }
 
 .section-title {
@@ -45,7 +46,8 @@ body {
 }
 
 .badge-chip {
-  @apply inline-flex items-center gap-2 rounded-full border border-border bg-surface/70 px-4 py-2 text-sm shadow-sm;
+  background-color: color-mix(in srgb, var(--surface) 70%, transparent);
+  @apply inline-flex items-center gap-2 rounded-full border border-border px-4 py-2 text-sm shadow-sm;
 }
 
 .focus-ring {
