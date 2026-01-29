@@ -2,7 +2,8 @@ import './globals.css';
 import type { ReactNode } from 'react';
 import { headers } from 'next/headers';
 import { Inter, Cairo } from 'next/font/google';
-import { defaultLocale, isRTL, type Locale } from '@/lib/i18n';
+import { defaultLocale, isRTL } from '@/lib/i18n';
+import type { Locale } from '@/lib/constants';
 
 const inter = Inter({
   subsets: ['latin'],
