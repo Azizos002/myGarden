@@ -24,7 +24,8 @@ export const buildMetadata = ({
       languages: {
         'ar-TN': `${SITE_URL}/ar-TN${path}`,
         fr: `${SITE_URL}/fr${path}`,
-        en: `${SITE_URL}/en${path}`
+        en: `${SITE_URL}/en${path}`,
+        'x-default': `${SITE_URL}/ar-TN${path}`
       }
     },
     openGraph: {

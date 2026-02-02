@@ -38,10 +38,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
             <h1 className="text-4xl font-bold leading-tight md:text-5xl">
               {t('headline')}
             </h1>
-<<<<<<< HEAD
-=======
             <p className="sr-only">{t('headline')}</p>
->>>>>>> remotes/origin/codex/build-multi-language-next.js-website-for-verdatun-7dvrc9
             <p className="text-lg text-foreground/70">{t('subheadline')}</p>
             <div className="flex flex-wrap gap-4">
               <Button asChild>
