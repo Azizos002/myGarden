@@ -1,0 +1,10 @@
+<svg width="320" height="120" viewBox="0 0 320 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="120" rx="16" fill="white"/>
+  <g transform="translate(20 8)">
+    <path d="M42 4C30 18 24 36 24 56C24 75 33 90 48 100C44 80 46 60 54 40C60 26 70 14 84 6C70 6 56 6 42 4Z" fill="#0B3D2E"/>
+    <path d="M96 6C86 22 82 40 84 58C86 78 98 94 118 104C110 84 110 64 116 46C122 28 134 16 148 8C132 8 114 8 96 6Z" fill="#C6AA58"/>
+    <circle cx="96" cy="24" r="6" fill="#C6AA58"/>
+  </g>
+  <text x="120" y="64" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#0B3D2E">VerdaTun</text>
+  <text x="122" y="90" font-family="Inter, Arial, sans-serif" font-size="16" letter-spacing="4" fill="#C6AA58">LANDSCAPING &amp; TURF</text>
+</svg>

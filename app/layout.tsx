@@ -5,6 +5,14 @@ import { Inter, Cairo } from 'next/font/google';
 import { defaultLocale, isRTL } from '@/lib/i18n';
 import type { Locale } from '@/lib/constants';
 
+export const metadata = {
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/apple-touch-icon.svg'
+  }
+};
+
 const inter = Inter({
   subsets: ['latin'],
   variable: '--font-inter',

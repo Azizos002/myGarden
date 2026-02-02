@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
@@ -38,8 +39,8 @@ export function Navbar() {
   return (
     <header className={`sticky top-0 z-40 border-b border-transparent ${scrolled ? 'glassy border-border' : ''}`}>
       <div className="container-pad flex h-16 items-center justify-between gap-4">
-        <Link href={pathname.split('/').slice(0, 2).join('/') || '/'} className="text-lg font-semibold">
-          VerdaTun
+        <Link href={pathname.split('/').slice(0, 2).join('/') || '/'} className="flex items-center gap-3">
+          <Image src="/logo.svg" alt="VerdaTun" width={120} height={40} priority className="h-10 w-auto" />
         </Link>
         <nav className="hidden items-center gap-6 lg:flex">
           {navKeys.map((item) => (
