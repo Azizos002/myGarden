@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { ImageOff, MessageCircle, MessagesSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { FACEBOOK_PAGE_URL, WHATSAPP_PHONE } from '@/lib/constants';
+import { MESSENGER_URL, WHATSAPP_PHONE } from '@/lib/constants';
 
 type ServiceCardProps = {
   title: string;
@@ -73,7 +73,7 @@ export function ServicesCard({
             </a>
           </Button>
           <Button asChild variant="outline">
-            <a href={FACEBOOK_PAGE_URL} target="_blank" rel="noreferrer">
+            <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
               <MessagesSquare className="h-4 w-4" />
               {messengerLabel}
             </a>

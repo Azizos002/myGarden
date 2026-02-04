@@ -9,7 +9,7 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/
 import { Reveal } from '@/components/motion';
 import { BeforeAfter } from '@/components/before-after';
 import { buildMetadata } from '@/lib/seo';
-import { WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
+import { MESSENGER_URL, WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
 
 export async function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = await getTranslations({ locale: params.locale, namespace: 'seo' });
@@ -25,6 +25,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
   const t = await getTranslations({ locale: params.locale, namespace: 'home' });
   const tCommon = await getTranslations({ locale: params.locale, namespace: 'common' });
   const tWhatsApp = await getTranslations({ locale: params.locale, namespace: 'whatsapp' });
+  const tContact = await getTranslations({ locale: params.locale, namespace: 'contactWidget' });
 
   const message = encodeURIComponent(
     tWhatsApp('prefillService', { service: tWhatsApp('defaultService') })
@@ -54,6 +55,11 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
                 </a>
               </Button>
               <Button variant="outline" asChild>
+                <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
+                  {tContact('messenger')}
+                </a>
+              </Button>
+              <Button variant="outline" asChild>
                 <Link href={`/${params.locale}/catalog`}>{t('secondaryCta')}</Link>
               </Button>
             </div>
@@ -69,7 +75,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
             <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-accent/30 blur-3xl" />
             <div className="relative overflow-hidden rounded-3xl border border-border shadow-soft">
               <Image
-                src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+                src="/images/produits/naturel/1.jpg"
                 alt={t('heroAlt')}
                 width={640}
                 height={520}
@@ -155,6 +161,11 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
                   {t('packagesCta')}
                 </a>
               </Button>
+              <Button variant="outline" asChild>
+                <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
+                  {tContact('messenger')}
+                </a>
+              </Button>
             </Card>
           ))}
         </div>
@@ -167,8 +178,8 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
         </Reveal>
         <div className="grid gap-6 lg:grid-cols-[1.2fr,1fr]">
           <BeforeAfter
-            before="https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
-            after="https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+            before="/images/before-after/before.jpg"
+            after="/images/before-after/after.jpg"
           />
           <div className="grid gap-4">
             {t.raw('projects').map((item: any) => (
@@ -229,6 +240,11 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
                   rel="noreferrer"
                 >
                   {t('ctaPrimary')}
+                </a>
+              </Button>
+              <Button variant="outline" asChild>
+                <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
+                  {tContact('messenger')}
                 </a>
               </Button>
               <Button variant="outline" asChild>

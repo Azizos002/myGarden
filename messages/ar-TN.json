@@ -45,17 +45,17 @@
       {
         "title": "عشب طبيعي",
         "text": "عشب ناعم يتنفس ومناسب للجو التونسي.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/naturel/1.jpg"
       },
       {
         "title": "عشب صناعي",
         "text": "عشب فاخر يدوم ويقعد أخضر طول العام.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/artificiel/1.jpg"
       },
       {
         "title": "نباتات وتصميم",
         "text": "نباتات متوسطية وتصميم عصري للحدائق.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/plantes/1.jpg"
       }
     ],
     "whyTitle": "علاش VerdaTun",
@@ -269,17 +269,17 @@
       {
         "title": "فضاء نزل",
         "text": "عشب صناعي فخم لفضاء ديما أخضر.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/artificiel/2.jpg"
       },
       {
         "title": "حديقة عائلية",
         "text": "عشب طبيعي مع ريّ لصيف مريح.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/naturel/2.jpg"
       },
       {
         "title": "باتيو أخضر",
         "text": "نباتات وتصميم متوسطي أنيق.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/plantes/2.jpg"
       }
     ]
   },

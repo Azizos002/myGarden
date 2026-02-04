@@ -24,8 +24,8 @@ export const products: Product[] = [
     priceValue: 35,
     tags: ['premium', 'soft'],
     images: [
-      'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e'
+      '/images/produits/naturel/1.jpg',
+      '/images/produits/naturel/2.jpg'
     ],
     stockStatus: 'in_stock'
   },
@@ -39,8 +39,8 @@ export const products: Product[] = [
     priceValue: 49,
     tags: ['durable', 'easy-care'],
     images: [
-      'https://images.unsplash.com/photo-1523413651479-597eb2da0ad6',
-      'https://images.unsplash.com/photo-1498842812179-c81beecf902c'
+      '/images/produits/artificiel/1.jpg',
+      '/images/produits/artificiel/2.jpg'
     ],
     stockStatus: 'limited'
   },
@@ -54,8 +54,8 @@ export const products: Product[] = [
     priceValue: 18,
     tags: ['mediterranean', 'shade'],
     images: [
-      'https://images.unsplash.com/photo-1498842812179-c81beecf902c',
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e'
+      '/images/produits/plantes/1.jpg',
+      '/images/produits/plantes/2.jpg'
     ],
     stockStatus: 'in_stock'
   },
@@ -69,7 +69,7 @@ export const products: Product[] = [
     priceValue: null,
     tags: ['smart', 'water-saving'],
     images: [
-      'https://images.unsplash.com/photo-1441974231531-c6227db76b6e'
+      '/images/produits/entretien/1.jpg'
     ],
     stockStatus: 'on_request'
   }

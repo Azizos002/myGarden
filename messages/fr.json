@@ -45,17 +45,17 @@
       {
         "title": "Gazon naturel",
         "text": "Un gazon respirant et doux adapté au climat tunisien.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/naturel/1.jpg"
       },
       {
         "title": "Gazon artificiel",
         "text": "Une pelouse durable et toujours verte.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/artificiel/1.jpg"
       },
       {
         "title": "Plantes & design",
         "text": "Plantes méditerranéennes et design moderne.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/plantes/1.jpg"
       }
     ],
     "whyTitle": "Pourquoi VerdaTun",
@@ -269,17 +269,17 @@
       {
         "title": "Lawn hôtel",
         "text": "Gazon artificiel pour un espace toujours vert.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/artificiel/2.jpg"
       },
       {
         "title": "Jardin familial",
         "text": "Gazon naturel avec irrigation estivale.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/naturel/2.jpg"
       },
       {
         "title": "Patio vert",
         "text": "Plantes et aménagement méditerranéen.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/plantes/2.jpg"
       }
     ]
   },

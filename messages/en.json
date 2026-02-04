@@ -45,17 +45,17 @@
       {
         "title": "Natural grass",
         "text": "Soft, breathable turf adapted to Tunisian climates.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/naturel/1.jpg"
       },
       {
         "title": "Artificial grass",
         "text": "Durable premium turf that stays lush year-round.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/artificiel/1.jpg"
       },
       {
         "title": "Plants & design",
         "text": "Mediterranean plants and modern green design.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/plantes/1.jpg"
       }
     ],
     "whyTitle": "Why VerdaTun",
@@ -269,17 +269,17 @@
       {
         "title": "Resort lounge lawn",
         "text": "Artificial turf with smooth finishing for guests.",
-        "image": "https://images.unsplash.com/photo-1523413651479-597eb2da0ad6"
+        "image": "/images/produits/artificiel/2.jpg"
       },
       {
         "title": "Family villa garden",
         "text": "Natural grass with irrigation for summer comfort.",
-        "image": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e"
+        "image": "/images/produits/naturel/2.jpg"
       },
       {
         "title": "Green patio",
         "text": "Plants and pergola-ready spaces with premium soil.",
-        "image": "https://images.unsplash.com/photo-1498842812179-c81beecf902c"
+        "image": "/images/produits/plantes/2.jpg"
       }
     ]
   },

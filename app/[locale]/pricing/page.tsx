@@ -2,7 +2,7 @@ import { getTranslations } from 'next-intl/server';
 import { Card } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { buildMetadata } from '@/lib/seo';
-import { WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
+import { MESSENGER_URL, WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
 
 export async function generateMetadata({ params }: { params: { locale: Locale } }) {
   const t = await getTranslations({ locale: params.locale, namespace: 'seo' });
@@ -17,6 +17,7 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
 export default async function PricingPage({ params }: { params: { locale: Locale } }) {
   const t = await getTranslations({ locale: params.locale, namespace: 'pricing' });
   const tWhatsApp = await getTranslations({ locale: params.locale, namespace: 'whatsapp' });
+  const tContact = await getTranslations({ locale: params.locale, namespace: 'contactWidget' });
   const message = encodeURIComponent(
     tWhatsApp('prefillService', { service: tWhatsApp('defaultService') })
   );
@@ -37,15 +38,22 @@ export default async function PricingPage({ params }: { params: { locale: Locale
                 <li key={feature}>• {feature}</li>
               ))}
             </ul>
-            <Button asChild variant="outline">
-              <a
-                href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${message}`}
-                target="_blank"
-                rel="noreferrer"
-              >
-                {t('cta')}
-              </a>
-            </Button>
+            <div className="flex flex-wrap gap-3">
+              <Button asChild variant="outline">
+                <a
+                  href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${message}`}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {t('cta')}
+                </a>
+              </Button>
+              <Button asChild variant="outline">
+                <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
+                  {tContact('messenger')}
+                </a>
+              </Button>
+            </div>
           </Card>
         ))}
       </div>

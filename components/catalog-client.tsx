@@ -10,7 +10,7 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
-import { WHATSAPP_NUMBER } from '@/lib/constants';
+import { MESSENGER_URL, WHATSAPP_NUMBER } from '@/lib/constants';
 
 const sortOptions = ['popular', 'priceLow', 'priceHigh'] as const;
 
@@ -18,6 +18,7 @@ export function CatalogClient() {
   const t = useTranslations('catalog');
   const tProducts = useTranslations('products');
   const tWhatsApp = useTranslations('whatsapp');
+  const tContact = useTranslations('contactWidget');
 
   const [query, setQuery] = useState('');
   const [category, setCategory] = useState('all');
@@ -147,17 +148,24 @@ export function CatalogClient() {
                       ? t('priceOnRequest')
                       : t('priceValue', { value: product.priceValue, type: t(`priceType.${product.priceType}`) })}
                   </p>
-                  <Button asChild>
-                    <a
-                      href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${encodeURIComponent(
-                        tWhatsApp('prefillService', { service: tProducts(product.nameKey) })
-                      )}`}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {t('cta')}
-                    </a>
-                  </Button>
+                  <div className="flex flex-wrap gap-3">
+                    <Button asChild>
+                      <a
+                        href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${encodeURIComponent(
+                          tWhatsApp('prefillService', { service: tProducts(product.nameKey) })
+                        )}`}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        {t('cta')}
+                      </a>
+                    </Button>
+                    <Button asChild variant="outline">
+                      <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
+                        {tContact('messenger')}
+                      </a>
+                    </Button>
+                  </div>
                 </div>
               </div>
             </DialogContent>

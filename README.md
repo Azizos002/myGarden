@@ -45,12 +45,14 @@ npm run start
 
 ## Adding your photos
 
-Place your local service photos in the following exact paths so the Services page renders them:
+Place your local photos in the following exact paths so the site renders them:
 
 ```
+/public/images/produits/{artificiel|naturel|plantes|entretien}/...
 /public/images/services/gazon.jpg
 /public/images/services/plantes.jpg
 /public/images/services/entretien.jpg
+/public/images/before-after/...
 ```
 
 **Recommended size:** 1600px wide (or larger), optimized to under 400KB each.

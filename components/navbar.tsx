@@ -4,12 +4,12 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { useTranslations } from 'next-intl';
-import { Menu, MessageCircle } from 'lucide-react';
+import { Menu, MessageCircle, MessagesSquare } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { ThemeToggle } from '@/components/theme-toggle';
 import { LanguageSwitcher } from '@/components/language-switcher';
-import { WHATSAPP_NUMBER } from '@/lib/constants';
+import { MESSENGER_URL, WHATSAPP_NUMBER } from '@/lib/constants';
 
 const navKeys = [
   { key: 'home', href: '' },
@@ -23,6 +23,7 @@ const navKeys = [
 export function Navbar() {
   const t = useTranslations('nav');
   const tWhatsApp = useTranslations('whatsapp');
+  const tContact = useTranslations('contactWidget');
   const pathname = usePathname();
   const [scrolled, setScrolled] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
@@ -39,29 +40,16 @@ export function Navbar() {
   );
 
   return (
-    <header
-      className={`sticky top-0 z-40 border-b border-transparent ${scrolled ? "glassy border-border" : ""}`}
-    >
+    <header className={`sticky top-0 z-40 border-b border-transparent ${scrolled ? 'glassy border-border' : ''}`}>
       <div className="container-pad flex h-16 items-center justify-between gap-4">
-        <Link
-          href={pathname.split("/").slice(0, 2).join("/") || "/"}
-          className="flex items-center gap-3"
-        >
-          <Image
-            src="/logo.svg"
-            alt="VerdaTun"
-            width={120}
-            height={40}
-            priority
-            className="h-10 w-auto"
-          />
-          <h1 className="text-lg font-semibold">VerdaTun</h1>
+        <Link href={pathname.split('/').slice(0, 2).join('/') || '/'} className="flex items-center gap-3">
+          <Image src="/logo.svg" alt="VerdaTun" width={120} height={40} priority className="h-10 w-auto" />
         </Link>
         <nav className="hidden items-center gap-6 lg:flex">
           {navKeys.map((item) => (
             <Link
               key={item.key}
-              href={`/${pathname.split("/")[1]}${item.href}`}
+              href={`/${pathname.split('/')[1]}${item.href}`}
               className="text-sm font-medium text-foreground/80 transition hover:text-primary"
             >
               {t(item.key)}
@@ -73,12 +61,18 @@ export function Navbar() {
           <ThemeToggle />
           <Button asChild className="hidden lg:inline-flex">
             <a
-              href={`https://wa.me/${WHATSAPP_NUMBER.replace("+", "")}?text=${message}`}
+              href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${message}`}
               target="_blank"
               rel="noreferrer"
             >
+              <MessagesSquare className="h-4 w-4" />
+              {tWhatsApp('cta')}
+            </a>
+          </Button>
+          <Button asChild variant="outline" className="hidden lg:inline-flex">
+            <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
               <MessageCircle className="h-4 w-4" />
-              {tWhatsApp("cta")}
+              {tContact('messenger')}
             </a>
           </Button>
           <Button
@@ -98,7 +92,7 @@ export function Navbar() {
             {navKeys.map((item) => (
               <Link
                 key={item.key}
-                href={`/${pathname.split("/")[1]}${item.href}`}
+                href={`/${pathname.split('/')[1]}${item.href}`}
                 className="font-medium text-foreground/80"
                 onClick={() => setMenuOpen(false)}
               >
@@ -107,12 +101,18 @@ export function Navbar() {
             ))}
             <Button asChild>
               <a
-                href={`https://wa.me/${WHATSAPP_NUMBER.replace("+", "")}?text=${message}`}
+                href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${message}`}
                 target="_blank"
                 rel="noreferrer"
               >
+                <MessagesSquare className="h-4 w-4" />
+                {tWhatsApp('cta')}
+              </a>
+            </Button>
+            <Button asChild variant="outline">
+              <a href={MESSENGER_URL} target="_blank" rel="noreferrer">
                 <MessageCircle className="h-4 w-4" />
-                {tWhatsApp("cta")}
+                {tContact('messenger')}
               </a>
             </Button>
           </div>
