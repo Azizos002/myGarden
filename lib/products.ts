@@ -1,3 +1,5 @@
+import { productImages } from './imageManifests';
+
 export type ProductCategory = 'natural' | 'artificial' | 'plants' | 'service';
 
 export type Product = {
@@ -15,48 +17,99 @@ export type Product = {
 
 export const products: Product[] = [
   {
-    id: 'natural-premium',
+    id: 'natural-bermuda',
     category: 'natural',
-    nameKey: 'naturalPremium.name',
-    shortKey: 'naturalPremium.short',
-    longKey: 'naturalPremium.long',
+    nameKey: 'naturalBermuda.name',
+    shortKey: 'naturalBermuda.short',
+    longKey: 'naturalBermuda.long',
     priceType: 'sqm',
     priceValue: 35,
     tags: ['premium', 'soft'],
-    images: [
-      '/images/produits/naturel/1.jpg',
-      '/images/produits/naturel/2.jpg'
-    ],
+    images: productImages['natural-bermuda'],
     stockStatus: 'in_stock'
   },
   {
-    id: 'artificial-pro',
-    category: 'artificial',
-    nameKey: 'artificialPro.name',
-    shortKey: 'artificialPro.short',
-    longKey: 'artificialPro.long',
+    id: 'natural-kikuyu',
+    category: 'natural',
+    nameKey: 'naturalKikuyu.name',
+    shortKey: 'naturalKikuyu.short',
+    longKey: 'naturalKikuyu.long',
     priceType: 'sqm',
-    priceValue: 49,
-    tags: ['durable', 'easy-care'],
-    images: [
-      '/images/produits/artificiel/1.jpg',
-      '/images/produits/artificiel/2.jpg'
-    ],
+    priceValue: 32,
+    tags: ['soft', 'durable'],
+    images: productImages['natural-kikuyu'],
+    stockStatus: 'in_stock'
+  },
+  {
+    id: 'natural-paspalum',
+    category: 'natural',
+    nameKey: 'naturalPaspalum.name',
+    shortKey: 'naturalPaspalum.short',
+    longKey: 'naturalPaspalum.long',
+    priceType: 'sqm',
+    priceValue: 38,
+    tags: ['premium', 'durable'],
+    images: productImages['natural-paspalum'],
     stockStatus: 'limited'
   },
   {
-    id: 'plants-mediterranean',
+    id: 'artificial-15mm',
+    category: 'artificial',
+    nameKey: 'artificial15.name',
+    shortKey: 'artificial15.short',
+    longKey: 'artificial15.long',
+    priceType: 'sqm',
+    priceValue: 29,
+    tags: ['easy-care', 'durable'],
+    images: productImages['artificial-15mm'],
+    stockStatus: 'in_stock'
+  },
+  {
+    id: 'artificial-20mm',
+    category: 'artificial',
+    nameKey: 'artificial20.name',
+    shortKey: 'artificial20.short',
+    longKey: 'artificial20.long',
+    priceType: 'sqm',
+    priceValue: 35,
+    tags: ['durable', 'easy-care'],
+    images: productImages['artificial-20mm'],
+    stockStatus: 'in_stock'
+  },
+  {
+    id: 'artificial-30mm',
+    category: 'artificial',
+    nameKey: 'artificial30.name',
+    shortKey: 'artificial30.short',
+    longKey: 'artificial30.long',
+    priceType: 'sqm',
+    priceValue: 42,
+    tags: ['premium', 'durable'],
+    images: productImages['artificial-30mm'],
+    stockStatus: 'limited'
+  },
+  {
+    id: 'artificial-40mm',
+    category: 'artificial',
+    nameKey: 'artificial40.name',
+    shortKey: 'artificial40.short',
+    longKey: 'artificial40.long',
+    priceType: 'sqm',
+    priceValue: 49,
+    tags: ['premium', 'soft'],
+    images: productImages['artificial-40mm'],
+    stockStatus: 'limited'
+  },
+  {
+    id: 'plants-zaitoun',
     category: 'plants',
-    nameKey: 'plantsMediterranean.name',
-    shortKey: 'plantsMediterranean.short',
-    longKey: 'plantsMediterranean.long',
+    nameKey: 'plantsZaitoun.name',
+    shortKey: 'plantsZaitoun.short',
+    longKey: 'plantsZaitoun.long',
     priceType: 'unit',
     priceValue: 18,
-    tags: ['mediterranean', 'shade'],
-    images: [
-      '/images/produits/plantes/1.jpg',
-      '/images/produits/plantes/2.jpg'
-    ],
+    tags: ['mediterranean', 'premium'],
+    images: productImages['plants-zaitoun'],
     stockStatus: 'in_stock'
   },
   {
@@ -68,9 +121,7 @@ export const products: Product[] = [
     priceType: 'quote',
     priceValue: null,
     tags: ['smart', 'water-saving'],
-    images: [
-      '/images/produits/entretien/1.jpg'
-    ],
+    images: productImages['irrigation-smart'],
     stockStatus: 'on_request'
   }
 ];

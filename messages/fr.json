@@ -224,6 +224,46 @@
       "name": "Irrigation intelligente",
       "short": "Arrosage optimisé pour jardins et pelouses.",
       "long": "Planification automatique avec goutte-à-goutte et minuteries."
+    },
+    "naturalBermuda": {
+      "name": "Bermuda Grass",
+      "short": "Gazon Bermuda naturel dense et fin.",
+      "long": "Le Bermuda est idéal pour les jardins ensoleillés en Tunisie."
+    },
+    "naturalKikuyu": {
+      "name": "Kikuyu Grass",
+      "short": "Gazon naturel à croissance rapide et couverture épaisse.",
+      "long": "Le Kikuyu offre une bonne résistance aux passages fréquents."
+    },
+    "naturalPaspalum": {
+      "name": "Paspalum Grass",
+      "short": "Gazon naturel premium pour un vert durable.",
+      "long": "Le Paspalum convient aux pelouses haut de gamme et zones côtières."
+    },
+    "artificial15": {
+      "name": "Gazon artificiel 15mm",
+      "short": "Gazon synthétique compact pour espaces pratiques.",
+      "long": "Le 15mm est parfait pour terrasses et zones faciles à entretenir."
+    },
+    "artificial20": {
+      "name": "Gazon artificiel 20mm",
+      "short": "Bon équilibre entre douceur et finition propre.",
+      "long": "Le 20mm donne un rendu naturel avec peu d’entretien."
+    },
+    "artificial30": {
+      "name": "Gazon artificiel 30mm",
+      "short": "Fibres plus épaisses pour un rendu premium.",
+      "long": "Le 30mm offre plus de confort et un aspect lush."
+    },
+    "artificial40": {
+      "name": "Gazon artificiel 40mm",
+      "short": "Gazon ultra-doux pour jardins de prestige.",
+      "long": "Le 40mm apporte un effet haut de gamme et très confortable."
+    },
+    "plantsZaitoun": {
+      "name": "Oliviers (Zaitoun)",
+      "short": "Oliviers méditerranéens pour jardins tunisiens.",
+      "long": "Oliviers sélectionnés avec livraison et mise en place."
     }
   },
   "services": {

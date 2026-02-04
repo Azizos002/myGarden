@@ -55,6 +55,38 @@ Place your local photos in the following exact paths so the site renders them:
 /public/images/before-after/...
 ```
 
+## How to add product images
+
+1. Add your product images into the exact sub-category folders:
+   - `/public/images/produits/artificiel/15mm/`
+   - `/public/images/produits/artificiel/20mm/`
+   - `/public/images/produits/artificiel/30mm/`
+   - `/public/images/produits/artificiel/40mm/`
+   - `/public/images/produits/naturel/bermuda-grass/`
+   - `/public/images/produits/naturel/kikuyu-grass/`
+   - `/public/images/produits/naturel/paspalum/`
+   - `/public/images/produits/plantes/zaitoun/`
+   - `/public/images/produits/entretien/` (optional, can stay empty)
+2. Update `lib/imageManifests.ts` to list **every filename** inside each folder. Example:
+
+```
+export const productImages = {
+  'artificial-15mm': [
+    '/images/produits/artificiel/15mm/1.jpg',
+    '/images/produits/artificiel/15mm/2.jpg'
+  ],
+  'natural-bermuda': [
+    '/images/produits/naturel/bermuda-grass/1.jpg',
+    '/images/produits/naturel/bermuda-grass/2.jpg'
+  ],
+  'plants-zaitoun': [
+    '/images/produits/plantes/zaitoun/1.jpg'
+  ]
+};
+```
+
+The catalog gallery uses these arrays to show all images per product.
+
 **Recommended size:** 1600px wide (or larger), optimized to under 400KB each.
 
 To replace placeholders:

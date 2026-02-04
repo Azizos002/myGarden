@@ -3,7 +3,7 @@
 import { useMemo, useState } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
-import { Search } from 'lucide-react';
+import { ChevronLeft, ChevronRight, Search } from 'lucide-react';
 import { products } from '@/lib/products';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
@@ -126,21 +126,13 @@ export function CatalogClient() {
                 </div>
               </Card>
             </DialogTrigger>
-            <DialogContent>
+            <DialogContent className="max-w-3xl">
               <DialogHeader>
                 <DialogTitle>{tProducts(product.nameKey)}</DialogTitle>
                 <DialogDescription>{tProducts(product.shortKey)}</DialogDescription>
               </DialogHeader>
               <div className="grid gap-4 md:grid-cols-2">
-                <div className="relative h-48 overflow-hidden rounded-xl">
-                  <Image
-                    src={product.images[1] ?? product.images[0]}
-                    alt={tProducts(product.nameKey)}
-                    fill
-                    className="object-cover"
-                    sizes="(max-width: 768px) 100vw, 50vw"
-                  />
-                </div>
+                <ProductGallery images={product.images} alt={tProducts(product.nameKey)} />
                 <div className="space-y-4">
                   <p className="text-sm text-foreground/70">{tProducts(product.longKey)}</p>
                   <p className="text-lg font-semibold text-primary">
@@ -172,6 +164,47 @@ export function CatalogClient() {
           </Dialog>
         ))}
       </div>
+    </div>
+  );
+}
+
+function ProductGallery({ images, alt }: { images: string[]; alt: string }) {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const safeImages = images.length > 0 ? images : ['/placeholder.svg'];
+  const currentImage = safeImages[currentIndex] ?? safeImages[0];
+
+  const previous = () => {
+    setCurrentIndex((index) => (index - 1 + safeImages.length) % safeImages.length);
+  };
+
+  const next = () => {
+    setCurrentIndex((index) => (index + 1) % safeImages.length);
+  };
+
+  return (
+    <div className="space-y-3">
+      <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
+        <Image
+          src={currentImage}
+          alt={alt || 'VerdaTun product image'}
+          fill
+          className="object-cover"
+          sizes="(max-width: 768px) 100vw, 50vw"
+        />
+      </div>
+      {safeImages.length > 1 && (
+        <div className="flex items-center justify-between gap-3">
+          <Button type="button" size="sm" variant="outline" onClick={previous}>
+            <ChevronLeft className="h-4 w-4" />
+          </Button>
+          <p className="text-xs text-foreground/60">
+            {currentIndex + 1} / {safeImages.length}
+          </p>
+          <Button type="button" size="sm" variant="outline" onClick={next}>
+            <ChevronRight className="h-4 w-4" />
+          </Button>
+        </div>
+      )}
     </div>
   );
 }

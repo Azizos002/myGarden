@@ -224,6 +224,46 @@
       "name": "Smart Irrigation Setup",
       "short": "Efficient watering for gardens and turf.",
       "long": "Automated irrigation planning with timers and drip systems."
+    },
+    "naturalBermuda": {
+      "name": "Bermuda Grass",
+      "short": "Natural Bermuda turf with dense growth and fine texture.",
+      "long": "Bermuda grass is ideal for sunny Tunisian gardens with strong heat tolerance."
+    },
+    "naturalKikuyu": {
+      "name": "Kikuyu Grass",
+      "short": "Fast-growing natural turf with thick coverage.",
+      "long": "Kikuyu offers durable green coverage and rapid regeneration in high-traffic areas."
+    },
+    "naturalPaspalum": {
+      "name": "Paspalum Grass",
+      "short": "Premium natural turf that stays vibrant with proper care.",
+      "long": "Paspalum is a premium option for lush lawns and seaside climates."
+    },
+    "artificial15": {
+      "name": "Artificial Turf 15mm",
+      "short": "Compact artificial turf for clean, practical spaces.",
+      "long": "15mm synthetic turf is ideal for terraces and easy maintenance zones."
+    },
+    "artificial20": {
+      "name": "Artificial Turf 20mm",
+      "short": "Balanced softness with a tidy finish.",
+      "long": "20mm turf gives a natural look while keeping upkeep minimal."
+    },
+    "artificial30": {
+      "name": "Artificial Turf 30mm",
+      "short": "Thicker fibers for a richer premium feel.",
+      "long": "30mm turf offers comfort underfoot and a lush appearance."
+    },
+    "artificial40": {
+      "name": "Artificial Turf 40mm",
+      "short": "Ultra-soft premium turf for luxury gardens.",
+      "long": "40mm turf delivers a high-end look and plush softness."
+    },
+    "plantsZaitoun": {
+      "name": "Olive Trees (Zaitoun)",
+      "short": "Mediterranean olive trees for Tunisian gardens.",
+      "long": "Selected olive trees with delivery and placement options."
     }
   },
   "services": {
