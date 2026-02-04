@@ -1,7 +1,7 @@
 export const SITE_NAME = 'VerdaTun';
 export const SITE_URL = 'https://verdatun.tn';
-export const WHATSAPP_PHONE = '+216XXXXXXXX';
-export const MESSENGER_HANDLE = 'verdatun';
+export const WHATSAPP_PHONE = '+21652576552';
+export const MESSENGER_HANDLE = 'https://www.facebook.com/profile.php?id=61587396870346';
 export const WHATSAPP_NUMBER = WHATSAPP_PHONE;
 
 export const LOCALES = ['ar-TN', 'fr', 'en'] as const;

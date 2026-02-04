@@ -64,7 +64,7 @@ export function ServicesCard({
         <div className="flex flex-wrap gap-3">
           <Button asChild>
             <a
-              href={`https://wa.me/${WHATSAPP_PHONE.replace('+', '')}?text=${whatsappMessage}`}
+              href={`https://wa.me/${WHATSAPP_PHONE.replace("+", "")}?text=${whatsappMessage}`}
               target="_blank"
               rel="noreferrer"
             >
@@ -73,7 +73,11 @@ export function ServicesCard({
             </a>
           </Button>
           <Button asChild variant="outline">
-            <a href={`https://m.me/${MESSENGER_HANDLE}`} target="_blank" rel="noreferrer">
+            <a
+              href={`https://www.facebook.com/profile.php?id=61587396870346`}
+              target="_blank"
+              rel="noreferrer"
+            >
               <MessagesSquare className="h-4 w-4" />
               {messengerLabel}
             </a>

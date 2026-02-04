@@ -16,20 +16,25 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/[locale]/pricing/page": [
+    "/[locale]/catalog/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/pricing/page.js"
+      "static/chunks/app/[locale]/catalog/page.js"
+    ],
+    "/[locale]/services/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/services/page.js"
     ],
     "/[locale]/projects/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/projects/page.js"
     ],
-    "/[locale]/services/page": [
+    "/[locale]/pricing/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/services/page.js"
+      "static/chunks/app/[locale]/pricing/page.js"
     ]
   }
 }
