@@ -9,15 +9,16 @@
   },
   "whatsapp": {
     "cta": "WhatsApp Quote",
-    "prefill": "Hi, I’d like a quote for [service]. City: __. Area: __ m²."
+    "defaultService": "VerdaTun services",
+    "prefillService": "Hi, I want info about: {service}. City: __. Area: __ m²."
   },
   "seo": {
     "homeTitle": "Premium turf & plants",
     "homeDescription": "VerdaTun delivers premium natural and artificial grass, plants, and landscaping services across Tunisia.",
     "catalogTitle": "Catalogue",
     "catalogDescription": "Explore our curated selection of natural turf, artificial turf, plants, and irrigation services.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Installation, delivery, maintenance, and irrigation tailored to Tunisian gardens.",
+    "servicesTitle": "Turf, plants & garden maintenance",
+    "servicesDescription": "Natural turf, artificial turf, plants, and garden maintenance services across Tunisia.",
     "projectsTitle": "Projects",
     "projectsDescription": "Browse recent gardens and premium green space transformations in Tunisia.",
     "pricingTitle": "Pricing",
@@ -227,38 +228,39 @@
   },
   "services": {
     "title": "Services",
-    "subtitle": "Complete support from installation to long-term care.",
-    "install": {
-      "title": "Installation",
-      "text": "Expert leveling, drainage, and turf installation."
+    "subtitle": "Three premium categories with clear deliverables and fast contact.",
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger",
+    "helper": "Send your city and surface (m²) so we can reply faster.",
+    "imageFallback": "Image to add",
+    "whatsappPrefill": "Hi, I want info about: {service}. City: __. Area: __ m².",
+    "gazon": {
+      "title": "Natural & Artificial Turf",
+      "description": "Premium gazon naturel and gazon artificiel adapted to Tunisian climates.",
+      "bullets": [
+        "Surface preparation & leveling",
+        "Roll installation or synthetic turf laying",
+        "Drainage and finishing edges"
+      ]
     },
-    "delivery": {
-      "title": "Delivery",
-      "text": "Fast logistics across Tunisia with careful handling."
+    "plants": {
+      "title": "Plants",
+      "description": "Mediterranean and ornamental plants selected for Tunisian gardens.",
+      "bullets": [
+        "Plant selection & layout",
+        "Soil enrichment & mulching",
+        "Delivery and on-site placement"
+      ]
     },
     "maintenance": {
-      "title": "Maintenance",
-      "text": "Seasonal cleaning, trimming, and care plans."
-    },
-    "irrigation": {
-      "title": "Irrigation",
-      "text": "Efficient systems that save water and keep plants fresh."
-    },
-    "processTitle": "How we work",
-    "process": [
-      {
-        "title": "Visit & measure",
-        "text": "We inspect your space and recommend the best option."
-      },
-      {
-        "title": "Design & quote",
-        "text": "A tailored proposal with clear pricing and timeline."
-      },
-      {
-        "title": "Install & follow-up",
-        "text": "Professional execution with post-install guidance."
-      }
-    ]
+      "title": "Garden Maintenance",
+      "description": "Ongoing care to keep your garden clean, green, and healthy.",
+      "bullets": [
+        "Seasonal pruning & clean-up",
+        "Irrigation checks and tuning",
+        "Lawn care and pest prevention"
+      ]
+    }
   },
   "projects": {
     "title": "Projects",
@@ -365,5 +367,9 @@
     "social": "Social",
     "share": "Share VerdaTun",
     "copyright": "© 2024 VerdaTun. All rights reserved."
+  },
+  "contactWidget": {
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger"
   }
 }

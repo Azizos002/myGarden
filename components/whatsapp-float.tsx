@@ -7,7 +7,9 @@ import { Button } from '@/components/ui/button';
 
 export function WhatsAppFloat() {
   const t = useTranslations('whatsapp');
-  const message = encodeURIComponent(t('prefill'));
+  const message = encodeURIComponent(
+    t('prefillService', { service: t('defaultService') })
+  );
 
   return (
     <Button

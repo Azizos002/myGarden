@@ -5,7 +5,7 @@ import Script from 'next/script';
 import Providers from '@/components/providers';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
-import { WhatsAppFloat } from '@/components/whatsapp-float';
+import { ContactFloat } from '@/components/contact-float';
 import { locales, isRTL } from '@/lib/i18n';
 import { SITE_URL, WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
 
@@ -48,7 +48,7 @@ export default async function LocaleLayout({
         <Navbar />
         <main>{children}</main>
         <Footer />
-        <WhatsAppFloat />
+        <ContactFloat />
         <Script id="ld-local-business" type="application/ld+json">
           {JSON.stringify(businessLd)}
         </Script>

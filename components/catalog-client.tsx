@@ -150,7 +150,7 @@ export function CatalogClient() {
                   <Button asChild>
                     <a
                       href={`https://wa.me/${WHATSAPP_NUMBER.replace('+', '')}?text=${encodeURIComponent(
-                        `${tWhatsApp('prefill')} (${tProducts(product.nameKey)})`
+                        tWhatsApp('prefillService', { service: tProducts(product.nameKey) })
                       )}`}
                       target="_blank"
                       rel="noreferrer"

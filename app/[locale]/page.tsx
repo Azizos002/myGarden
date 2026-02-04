@@ -26,7 +26,9 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
   const tCommon = await getTranslations({ locale: params.locale, namespace: 'common' });
   const tWhatsApp = await getTranslations({ locale: params.locale, namespace: 'whatsapp' });
 
-  const message = encodeURIComponent(tWhatsApp('prefill'));
+  const message = encodeURIComponent(
+    tWhatsApp('prefillService', { service: tWhatsApp('defaultService') })
+  );
 
   return (
     <div className="space-y-20 pb-16">

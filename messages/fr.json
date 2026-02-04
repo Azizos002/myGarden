@@ -9,15 +9,16 @@
   },
   "whatsapp": {
     "cta": "Devis WhatsApp",
-    "prefill": "Bonjour, je veux un devis pour [service]. Ville: __. Surface: __ m²."
+    "defaultService": "services VerdaTun",
+    "prefillService": "Bonjour, je veux des infos pour: {service}. Ville: __. Surface: __ m²."
   },
   "seo": {
     "homeTitle": "Gazon premium & plantes",
     "homeDescription": "VerdaTun fournit gazon naturel, gazon artificiel, plantes et services paysagers en Tunisie.",
     "catalogTitle": "Catalogue",
     "catalogDescription": "Découvrez notre sélection locale de gazon naturel, gazon artificiel, plantes et irrigation.",
-    "servicesTitle": "Services",
-    "servicesDescription": "Installation, livraison, entretien et irrigation pour jardins tunisiens.",
+    "servicesTitle": "Gazon, plantes & entretien jardins",
+    "servicesDescription": "Gazon naturel, gazon artificiel, plantes et entretien des jardins en Tunisie.",
     "projectsTitle": "Projets",
     "projectsDescription": "Nos dernières réalisations et transformations en Tunisie.",
     "pricingTitle": "Tarifs",
@@ -227,38 +228,39 @@
   },
   "services": {
     "title": "Services",
-    "subtitle": "Un accompagnement complet du début à la fin.",
-    "install": {
-      "title": "Installation",
-      "text": "Nivellement, drainage et pose professionnelle."
+    "subtitle": "Trois catégories premium avec des livrables clairs et un contact rapide.",
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger",
+    "helper": "Envoyez-nous votre ville et la surface (m²) pour répondre plus vite.",
+    "imageFallback": "Image à ajouter",
+    "whatsappPrefill": "Bonjour, je veux des infos pour: {service}. Ville: __. Surface: __ m².",
+    "gazon": {
+      "title": "Gazon naturel & gazon artificiel",
+      "description": "Gazon naturel et gazon artificiel premium adaptés au climat tunisien.",
+      "bullets": [
+        "Préparation et nivellement du sol",
+        "Pose en rouleaux ou gazon synthétique",
+        "Finitions et bordures propres"
+      ]
     },
-    "delivery": {
-      "title": "Livraison",
-      "text": "Logistique rapide et soignée partout en Tunisie."
+    "plants": {
+      "title": "Plantes",
+      "description": "Plantes méditerranéennes et décoratives sélectionnées pour vos jardins.",
+      "bullets": [
+        "Sélection et implantation",
+        "Amendement du sol et paillage",
+        "Livraison et mise en place"
+      ]
     },
     "maintenance": {
-      "title": "Entretien",
-      "text": "Nettoyage, taille et suivi saisonnier."
-    },
-    "irrigation": {
-      "title": "Irrigation",
-      "text": "Systèmes efficaces pour économiser l'eau."
-    },
-    "processTitle": "Notre méthode",
-    "process": [
-      {
-        "title": "Visite & mesure",
-        "text": "Nous évaluons votre espace et vos besoins."
-      },
-      {
-        "title": "Design & devis",
-        "text": "Proposition claire avec planning et budget."
-      },
-      {
-        "title": "Pose & suivi",
-        "text": "Réalisation professionnelle et conseils après pose."
-      }
-    ]
+      "title": "Entretien des jardins",
+      "description": "Un suivi régulier pour garder un jardin propre et en bonne santé.",
+      "bullets": [
+        "Taille saisonnière et nettoyage",
+        "Vérification et réglage de l’arrosage",
+        "Soins des pelouses et prévention"
+      ]
+    }
   },
   "projects": {
     "title": "Projets",
@@ -365,5 +367,9 @@
     "social": "Réseaux",
     "share": "Partager VerdaTun",
     "copyright": "© 2024 VerdaTun. Tous droits réservés."
+  },
+  "contactWidget": {
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger"
   }
 }

@@ -26,11 +26,7 @@ export function Footer() {
     <footer className="border-t border-border py-12">
       <div className="container-pad grid gap-8 lg:grid-cols-[2fr,1fr,1fr]">
         <div className="space-y-4">
-          <div className="flex items-center">
           <Image src="/logo.svg" alt="VerdaTun" width={180} height={60} className="h-14 w-auto" />
-          <h1 className="text-lg font-semibold">VerdaTun</h1>
-          </div>
-
           <p className="text-sm text-foreground/70">{t('description')}</p>
           <div className="flex items-center gap-3 text-foreground/70">
             <Phone className="h-4 w-4" />

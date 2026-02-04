@@ -17,7 +17,9 @@ export async function generateMetadata({ params }: { params: { locale: Locale } 
 export default async function PricingPage({ params }: { params: { locale: Locale } }) {
   const t = await getTranslations({ locale: params.locale, namespace: 'pricing' });
   const tWhatsApp = await getTranslations({ locale: params.locale, namespace: 'whatsapp' });
-  const message = encodeURIComponent(tWhatsApp('prefill'));
+  const message = encodeURIComponent(
+    tWhatsApp('prefillService', { service: tWhatsApp('defaultService') })
+  );
 
   return (
     <div className="container-pad space-y-10 py-12">
