@@ -15,7 +15,7 @@ export function BeforeAfter({ before, after }: { before: string; after: string }
       <input
         type="range"
         min={10}
-        max={90}
+        max={100}
         value={value}
         onChange={(event) => setValue(Number(event.target.value))}
         className="absolute bottom-4 left-1/2 w-[80%] -translate-x-1/2"
