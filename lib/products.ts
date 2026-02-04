@@ -24,8 +24,8 @@ export const products: Product[] = [
     priceValue: 35,
     tags: ['premium', 'soft'],
     images: [
-      '/images/produits/naturel/1.jpg',
-      '/images/produits/naturel/2.jpg'
+      '/images/produits/naturel/paspalum/gardenWithPaspalumGrass.jpg',
+      '/images/produits/naturel/paspalum/gardenWithPaspalumGrass.jpg'
     ],
     stockStatus: 'in_stock'
   },
