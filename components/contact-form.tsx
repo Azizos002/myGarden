@@ -8,6 +8,7 @@ import { useTranslations } from 'next-intl';
 import { Input } from '@/components/ui/input';
 import { Textarea } from '@/components/ui/textarea';
 import { Button } from '@/components/ui/button';
+import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from '@/components/ui/dialog';
 
 const contactSchema = z.object({
   name: z.string().min(2),
@@ -22,6 +23,7 @@ type ContactValues = z.infer<typeof contactSchema>;
 export function ContactForm() {
   const t = useTranslations('contact');
   const [submitted, setSubmitted] = useState(false);
+  const [open, setOpen] = useState(false);
 
   const {
     register,
@@ -31,8 +33,21 @@ export function ContactForm() {
     resolver: zodResolver(contactSchema)
   });
 
-  const onSubmit = () => {
+  const onSubmit = (values: ContactValues) => {
+    const body = t('emailBody', {
+      name: values.name,
+      phone: values.phone,
+      city: values.city,
+      service: values.service,
+      message: values.message
+    });
+    const subject = encodeURIComponent(t('emailSubject'));
+    const mailto = `mailto:verdatun2026@gmail.com?subject=${subject}&body=${encodeURIComponent(body)}`;
     setSubmitted(true);
+    setOpen(true);
+    if (typeof window !== 'undefined') {
+      window.location.href = mailto;
+    }
   };
 
   return (
@@ -67,7 +82,16 @@ export function ContactForm() {
         {errors.message && <p className="text-xs text-red-500">{t('error')}</p>}
       </div>
       <Button type="submit">{t('submit')}</Button>
-      {submitted && <p className="text-sm text-primary">{t('success')}</p>}
+      {submitted && <p className="text-sm text-primary">{t('successInline')}</p>}
+      <Dialog open={open} onOpenChange={setOpen}>
+        <DialogContent className="max-w-md">
+          <DialogHeader>
+            <DialogTitle>{t('successTitle')}</DialogTitle>
+            <DialogDescription>{t('success')}</DialogDescription>
+          </DialogHeader>
+          <Button onClick={() => setOpen(false)}>{t('successClose')}</Button>
+        </DialogContent>
+      </Dialog>
     </form>
   );
 }

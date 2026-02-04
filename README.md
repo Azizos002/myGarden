@@ -65,7 +65,7 @@ If an image is missing, the UI shows a graceful “Image à ajouter” placehold
 
 Set your contact details in `lib/constants.ts`:
 - `WHATSAPP_PHONE` (e.g. `+216XXXXXXXX`)
-- `MESSENGER_HANDLE` (e.g. `verdatun` for `https://m.me/verdatun`)
+- `FACEBOOK_PAGE_URL` (e.g. `https://www.facebook.com/profile.php?id=...`)
 
 ## Brand logo
 

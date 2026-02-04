@@ -336,7 +336,12 @@
     "infoTitle": "معلومات التواصل",
     "address": "نهج الحبيب بورقيبة، تونس (مثال)",
     "hours": "الإثنين-السبت • 08:00 - 19:00",
-    "mapPlaceholder": "مكان الخريطة (بدون مفتاح)"
+    "mapPlaceholder": "مكان الخريطة (بدون مفتاح)",
+    "successInline": "يعطيك الصحة! تو نتصلو بيك.",
+    "successTitle": "يعطيك الصحة على طلبك",
+    "successClose": "سكر",
+    "emailSubject": "طلب تواصل VerdaTun",
+    "emailBody": "الإسم: {name}\nالتليفون: {phone}\nالمدينة: {city}\nالخدمة: {service}\nالرسالة: {message}"
   },
   "legal": {
     "title": "قانوني",

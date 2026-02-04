@@ -3,7 +3,7 @@
 import { MessageCircle, MessagesSquare } from 'lucide-react';
 import { useTranslations } from 'next-intl';
 import { Button } from '@/components/ui/button';
-import { MESSENGER_HANDLE, WHATSAPP_PHONE } from '@/lib/constants';
+import { FACEBOOK_PAGE_URL, WHATSAPP_PHONE } from '@/lib/constants';
 
 export function ContactFloat() {
   const t = useTranslations('contactWidget');
@@ -25,11 +25,7 @@ export function ContactFloat() {
         </a>
       </Button>
       <Button asChild size="sm" variant="outline" className="rounded-xl">
-        <a
-          href={`https://m.me/${MESSENGER_HANDLE}`}
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href={FACEBOOK_PAGE_URL} target="_blank" rel="noreferrer">
           <MessagesSquare className="h-4 w-4" />
           {t('messenger')}
         </a>

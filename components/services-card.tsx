@@ -4,7 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { ImageOff, MessageCircle, MessagesSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import { MESSENGER_HANDLE, WHATSAPP_PHONE } from '@/lib/constants';
+import { FACEBOOK_PAGE_URL, WHATSAPP_PHONE } from '@/lib/constants';
 
 type ServiceCardProps = {
   title: string;
@@ -64,7 +64,7 @@ export function ServicesCard({
         <div className="flex flex-wrap gap-3">
           <Button asChild>
             <a
-              href={`https://wa.me/${WHATSAPP_PHONE.replace("+", "")}?text=${whatsappMessage}`}
+              href={`https://wa.me/${WHATSAPP_PHONE.replace('+', '')}?text=${whatsappMessage}`}
               target="_blank"
               rel="noreferrer"
             >
@@ -73,11 +73,7 @@ export function ServicesCard({
             </a>
           </Button>
           <Button asChild variant="outline">
-            <a
-              href={`https://www.facebook.com/profile.php?id=61587396870346`}
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={FACEBOOK_PAGE_URL} target="_blank" rel="noreferrer">
               <MessagesSquare className="h-4 w-4" />
               {messengerLabel}
             </a>

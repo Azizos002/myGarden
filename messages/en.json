@@ -336,7 +336,12 @@
     "infoTitle": "Contact details",
     "address": "Avenue Habib Bourguiba, Tunis (placeholder)",
     "hours": "Mon-Sat • 08:00 - 19:00",
-    "mapPlaceholder": "Map placeholder (no API key)"
+    "mapPlaceholder": "Map placeholder (no API key)",
+    "successInline": "Thanks! We will contact you shortly.",
+    "successTitle": "Thanks for your request",
+    "successClose": "Close",
+    "emailSubject": "VerdaTun contact request",
+    "emailBody": "Name: {name}\nPhone: {phone}\nCity: {city}\nService: {service}\nMessage: {message}"
   },
   "legal": {
     "title": "Legal",
