@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 import { ArrowRight, Leaf, ShieldCheck, Sparkles, Truck, Droplets, Wrench } from 'lucide-react';
@@ -8,6 +7,8 @@ import { Badge } from '@/components/ui/badge';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Reveal } from '@/components/motion';
 import { BeforeAfter } from '@/components/before-after';
+import { HomeHeroSlider } from '@/components/home-hero-slider';
+import { CategorySlider } from '@/components/category-slider';
 import { buildMetadata } from '@/lib/seo';
 import { MESSENGER_URL, WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
 
@@ -73,16 +74,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
           </Reveal>
           <Reveal className="relative">
             <div className="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-accent/30 blur-3xl" />
-            <div className="relative overflow-hidden rounded-3xl border border-border shadow-soft">
-              <Image
-                src="/images/produits/naturel/1.jpg"
-                alt={t('heroAlt')}
-                width={640}
-                height={520}
-                className="h-full w-full object-cover"
-                priority
-              />
-            </div>
+            <HomeHeroSlider alt={t('heroAlt')} />
           </Reveal>
         </div>
       </section>
@@ -95,17 +87,27 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
           </Link>
         </Reveal>
         <div className="grid gap-6 md:grid-cols-3">
-          {t.raw('categories').map((category: any) => (
+          {t.raw('categories').map((category: any, index: number) => (
             <Card key={category.title} className="overflow-hidden">
-              <div className="relative h-44">
-                <Image
-                  src={category.image}
-                  alt={category.title}
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-              </div>
+              <CategorySlider
+                images={
+                  index === 0
+                    ? [
+                        '/categorie/gazon-naturel/1.jpg',
+                        '/categorie/gazon-naturel/2.jpg'
+                      ]
+                    : index === 1
+                    ? [
+                        '/categorie/gazon-artificiel/1.jpg',
+                        '/categorie/gazon-artificiel/2.jpg'
+                      ]
+                    : [
+                        '/categorie/plantes-design/1.jpg',
+                        '/categorie/plantes-design/2.jpg'
+                      ]
+                }
+                alt={category.title}
+              />
               <div className="p-6 space-y-2">
                 <h3 className="text-xl font-semibold">{category.title}</h3>
                 <p className="text-sm text-foreground/70">{category.text}</p>
