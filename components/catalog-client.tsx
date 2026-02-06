@@ -1,7 +1,6 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 import { ChevronLeft, ChevronRight, Search } from 'lucide-react';
 import { products } from '@/lib/products';
@@ -10,6 +9,7 @@ import { Card } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { Input } from '@/components/ui/input';
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle, DialogTrigger } from '@/components/ui/dialog';
+import { SmartImage } from '@/components/ui/smart-image';
 import { MESSENGER_URL, WHATSAPP_NUMBER } from '@/lib/constants';
 
 const sortOptions = ['popular', 'priceLow', 'priceHigh'] as const;
@@ -102,12 +102,13 @@ export function CatalogClient() {
                 className="group cursor-pointer overflow-hidden transition hover:-translate-y-1 hover:shadow-xl"
               >
                 <div className="relative h-48">
-                  <Image
+                  <SmartImage
                     src={product.images[0] ?? '/placeholder.svg'}
                     alt={tProducts(product.nameKey)}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-105"
                     sizes="(max-width: 768px) 100vw, 33vw"
+                    wrapperClassName="h-48"
                   />
                 </div>
                 <div className="p-5 space-y-3">
@@ -184,12 +185,13 @@ function ProductGallery({ images, alt }: { images: string[]; alt: string }) {
   return (
     <div className="space-y-3">
       <div className="relative aspect-[4/3] overflow-hidden rounded-xl">
-        <Image
+        <SmartImage
           src={currentImage}
           alt={alt || 'VerdaTun product image'}
           fill
           className="object-cover"
           sizes="(max-width: 768px) 100vw, 50vw"
+          wrapperClassName="aspect-[4/3]"
         />
       </div>
       {safeImages.length > 1 && (

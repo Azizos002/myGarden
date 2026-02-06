@@ -6,6 +6,8 @@ import Providers from '@/components/providers';
 import { Navbar } from '@/components/navbar';
 import { Footer } from '@/components/footer';
 import { ContactFloat } from '@/components/contact-float';
+import { AppSplash } from '@/components/app-splash';
+import { TopLoader } from '@/components/top-loader';
 import { locales, isRTL } from '@/lib/i18n';
 import { SITE_URL, WHATSAPP_NUMBER, type Locale } from '@/lib/constants';
 
@@ -45,6 +47,8 @@ export default async function LocaleLayout({
   return (
     <Providers messages={messages} locale={locale}>
       <div className={isRTL(locale as Locale) ? 'font-arabic' : 'font-sans'}>
+        <AppSplash />
+        <TopLoader />
         <Navbar />
         <main>{children}</main>
         <Footer />

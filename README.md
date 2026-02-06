@@ -104,3 +104,7 @@ Set your contact details in `lib/constants.ts`:
 ## Brand logo
 
 Replace the file at `public/logo.svg` with your official VerdaTun logo (keep the same filename) so the header and footer update automatically.
+
+## Splash logo
+
+Place your splash logo at `public/logo/verdatun-logo.png`. To disable the splash for testing, clear `sessionStorage` key `verdatun_splash_seen` in the browser.
