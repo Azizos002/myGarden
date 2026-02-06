@@ -21,15 +21,15 @@ export default async function ServicesPage({ params }: { params: { locale: Local
   const cards = [
     {
       key: 'gazon',
-      image: '/images/services/gazon.jpg'
+      image: '/images/services/naturel/gazon.jpg'
     },
     {
       key: 'plants',
-      image: '/images/services/plantes.jpg'
+      image: '/images/services/plantes/mixte.jpg'
     },
     {
       key: 'maintenance',
-      image: '/images/services/entretien.jpg'
+      image: '/images/produits/entretien/1.jpg'
     }
   ];
 

@@ -201,7 +201,7 @@
       "unit": "unité",
       "quote": "devis"
     },
-    "priceValue": "{value} TND / {type}",
+    "priceValue": "À partir de {value} TND / {type}",
     "cta": "Demander un devis"
   },
   "products": {
@@ -264,6 +264,41 @@
       "name": "Oliviers (Zaitoun)",
       "short": "Oliviers méditerranéens pour jardins tunisiens.",
       "long": "Oliviers sélectionnés avec livraison et mise en place."
+    },
+    "plantsCocos": {
+      "name": "Coconut Palm",
+      "short": "Decorative palm tree for a tropical garden look.",
+      "long": "Coconut palm suitable for outdoor landscaping, with delivery and installation available upon request."
+    },
+    "plantsStrelitzia": {
+      "name": "Strelitzia",
+      "short": "Plante décorative premium au style tropical et feuilles larges.",
+      "long": "Strelitzia (Oiseau de paradis) idéale pour jardin et terrasse, supporte le soleil ou la mi-ombre, avec livraison et installation disponibles sur demande."
+    },
+    "plantsPalmierRoyale": {
+      "name": "Palmier Royal",
+      "short": "Palmier premium qui apporte une touche élégante à votre jardin.",
+      "long": "Palmier Royal idéal pour villas et espaces extérieurs, résistant au soleil et parfait pour un aménagement haut de gamme, avec livraison et installation sur demande."
+    },
+    "plantsYuccaPanache": {
+      "name": "Yucca Panaché",
+      "short": "Yucca décoratif aux feuilles panachées, très résistant à la chaleur.",
+      "long": "Le Yucca Panaché est une plante extérieure élégante et résistante au manque d’eau, idéale pour jardins et terrasses en Tunisie, avec livraison et installation sur demande."
+    },
+    "plantsYuccaNormal": {
+      "name": "Yucca",
+      "short": "Plante résistante et facile d’entretien, idéale pour jardin et terrasse.",
+      "long": "Le Yucca est une plante décorative très résistante à la chaleur et au manque d’eau, parfaite pour l’extérieur en Tunisie, avec livraison et installation sur demande."
+    },
+    "plantsStrelitziaReginae": {
+      "name": "Strelitzia reginae",
+      "short": "Oiseau de paradis nain, plante décorative tropicale avec floraison élégante.",
+      "long": "Strelitzia reginae (oiseau de paradis nain) est idéale pour jardins et terrasses, supporte le soleil ou la mi-ombre, avec livraison et installation disponibles sur demande."
+    },
+    "plantsDracaena": {
+      "name": "Dracaena",
+      "short": "Plante décorative élégante et facile d’entretien, adaptée au soleil ou à la mi-ombre.",
+      "long": "Le Dracaena (Dragon Tree) est idéal pour jardin et terrasse, résistant à la chaleur et parfait pour un style moderne, avec livraison et installation sur demande."
     }
   },
   "services": {
