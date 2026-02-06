@@ -25,7 +25,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 35,
     tags: ['premium', 'soft'],
-    images: productImages['natural-bermuda'],
+    images: productImages['natural-bermuda'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
   },
   {
@@ -37,7 +37,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 32,
     tags: ['soft', 'durable'],
-    images: productImages['natural-kikuyu'],
+    images: productImages['natural-kikuyu'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
   },
   {
@@ -49,7 +49,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 38,
     tags: ['premium', 'durable'],
-    images: productImages['natural-paspalum'],
+    images: productImages['natural-paspalum'] ?? ['/placeholder.svg'],
     stockStatus: 'limited'
   },
   {
@@ -61,7 +61,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 29,
     tags: ['easy-care', 'durable'],
-    images: productImages['artificial-15mm'],
+    images: productImages['artificial-15mm'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
   },
   {
@@ -73,7 +73,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 35,
     tags: ['durable', 'easy-care'],
-    images: productImages['artificial-20mm'],
+    images: productImages['artificial-20mm'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
   },
   {
@@ -85,7 +85,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 42,
     tags: ['premium', 'durable'],
-    images: productImages['artificial-30mm'],
+    images: productImages['artificial-30mm'] ?? ['/placeholder.svg'],
     stockStatus: 'limited'
   },
   {
@@ -97,7 +97,7 @@ export const products: Product[] = [
     priceType: 'sqm',
     priceValue: 49,
     tags: ['premium', 'soft'],
-    images: productImages['artificial-40mm'],
+    images: productImages['artificial-40mm'] ?? ['/placeholder.svg'],
     stockStatus: 'limited'
   },
   {
@@ -109,31 +109,19 @@ export const products: Product[] = [
     priceType: 'unit',
     priceValue: 18,
     tags: ['mediterranean', 'premium'],
-    images: productImages['plants-zaitoun'],
+    images: productImages['plants-zaitoun'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
   },
-  // {
-  //   id: 'irrigation-smart',
-  //   category: 'service',
-  //   nameKey: 'irrigationSmart.name',
-  //   shortKey: 'irrigationSmart.short',
-  //   longKey: 'irrigationSmart.long',
-  //   priceType: 'quote',
-  //   priceValue: null,
-  //   tags: ['smart', 'water-saving'],
-  //   images: productImages['irrigation-smart'],
-  //   stockStatus: 'on_request'
-  // }
   {
-    id: 'plants-zaitoun',
-    category: 'plants',
-    nameKey: 'plantsZaitoun.name',
-    shortKey: 'plantsZaitoun.short',
-    longKey: 'plantsZaitoun.long',
-    priceType: 'unit',
-    priceValue: 18,
-    tags: ['mediterranean', 'premium'],
-    images: productImages['plants-zaitoun'],
-    stockStatus: 'in_stock'
-  },
+    id: 'irrigation-smart',
+    category: 'service',
+    nameKey: 'irrigationSmart.name',
+    shortKey: 'irrigationSmart.short',
+    longKey: 'irrigationSmart.long',
+    priceType: 'quote',
+    priceValue: null,
+    tags: ['smart', 'water-saving'],
+    images: productImages['irrigation-smart'] ?? ['/placeholder.svg'],
+    stockStatus: 'on_request'
+  }
 ];

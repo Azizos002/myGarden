@@ -103,7 +103,7 @@ export function CatalogClient() {
               >
                 <div className="relative h-48">
                   <Image
-                    src={product.images[0]}
+                    src={product.images[0] ?? '/placeholder.svg'}
                     alt={tProducts(product.nameKey)}
                     fill
                     className="object-cover transition duration-300 group-hover:scale-105"
@@ -170,7 +170,7 @@ export function CatalogClient() {
 
 function ProductGallery({ images, alt }: { images: string[]; alt: string }) {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const safeImages = images.length > 0 ? images : ['/placeholder.svg'];
+  const safeImages = Array.isArray(images) && images.length > 0 ? images : ['/placeholder.svg'];
   const currentImage = safeImages[currentIndex] ?? safeImages[0];
 
   const previous = () => {
