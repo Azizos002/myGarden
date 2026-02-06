@@ -201,7 +201,7 @@
       "unit": "unit",
       "quote": "quote"
     },
-    "priceValue": "From {value} TND / {type}",
+    "priceValue": "{value} TND / {type}",
     "cta": "Request quote"
   },
   "products": {
@@ -264,41 +264,6 @@
       "name": "Olive Trees (Zaitoun)",
       "short": "Mediterranean olive trees for Tunisian gardens.",
       "long": "Selected olive trees with delivery and placement options."
-    },
-    "plantsCocos": {
-      "name": "Cocotier",
-      "short": "Palmier décoratif pour un style tropical dans votre jardin.",
-      "long": "Cocotier idéal pour l’aménagement extérieur, avec possibilité de livraison et installation sur demande."
-    },
-    "plantsStrelitzia": {
-      "name": "Strelitzia",
-      "short": "Premium decorative plant with a tropical look and large leaves.",
-      "long": "Strelitzia (Bird of Paradise) is ideal for gardens and terraces, tolerates sun or partial shade, with delivery and installation available upon request."
-    },
-    "plantsPalmierRoyale": {
-      "name": "Royal Palm",
-      "short": "Premium palm tree that adds an elegant look to your garden.",
-      "long": "Royal Palm is ideal for villas and outdoor landscaping, sun-tolerant and perfect for a high-end garden style, with delivery and installation available upon request."
-    },
-    "plantsYuccaPanache": {
-      "name": "Variegated Yucca",
-      "short": "Decorative yucca with variegated leaves, very heat and drought tolerant.",
-      "long": "Variegated Yucca is a premium outdoor plant that handles heat and low water very well, ideal for gardens and terraces in Tunisia, with delivery and installation available upon request."
-    },
-    "plantsYuccaNormal": {
-      "name": "Yucca",
-      "short": "Hardy and low-maintenance plant, ideal for gardens and terraces.",
-      "long": "Yucca is a decorative outdoor plant that handles heat and low water very well, perfect for landscaping in Tunisia, with delivery and installation available upon request."
-    },
-    "plantsStrelitziaReginae": {
-      "name": "Strelitzia reginae",
-      "short": "Dwarf Bird of Paradise, tropical decorative plant with elegant flowers.",
-      "long": "Strelitzia reginae (dwarf Bird of Paradise) is ideal for gardens and terraces, tolerates sun or partial shade, with delivery and installation available upon request."
-    },
-    "plantsDracaena": {
-      "name": "Dragon Tree",
-      "short": "Elegant low-maintenance decorative plant, suitable for sun or partial shade.",
-      "long": "Dragon Tree (Dracaena) is ideal for gardens and terraces, heat-tolerant and perfect for a modern landscaping style, with delivery and installation available upon request."
     }
   },
   "services": {
@@ -359,38 +324,115 @@
     ]
   },
   "pricing": {
-    "title": "Pricing",
-    "subtitle": "Clear packages for every space and budget.",
-    "cta": "Get a quote",
-    "plans": [
-      {
-        "title": "Starter",
-        "price": "From 29 TND / m²",
-        "features": [
-          "Base prep",
-          "Natural or artificial turf",
-          "Delivery"
+    "title": "Comparisons & Tips",
+    "subtitle": "Guidance to choose the right turf and plants for your space.",
+    "chooseTitle": "Choosing your turf",
+    "strengths": "Strengths",
+    "notes": "Things to know",
+    "choose": {
+      "natural": {
+        "title": "Natural turf",
+        "strengths": [
+          "Fresh look",
+          "Natural feel",
+          "Cooler surface"
+        ],
+        "notes": [
+          "Needs irrigation",
+          "Seasonal care",
+          "Best with sun exposure"
         ]
       },
-      {
-        "title": "Premium",
-        "price": "From 45 TND / m²",
-        "features": [
-          "Turf + plants",
-          "Irrigation setup",
-          "Installation"
-        ]
-      },
-      {
-        "title": "Signature",
-        "price": "On request",
-        "features": [
-          "Custom design",
-          "Lighting",
-          "Maintenance plan"
+      "artificial": {
+        "title": "Artificial turf",
+        "strengths": [
+          "Low maintenance",
+          "Always green",
+          "Clean finish"
+        ],
+        "notes": [
+          "Warmer under sun",
+          "Needs base prep",
+          "Occasional brushing"
         ]
       }
-    ]
+    },
+    "naturalCompareTitle": "Natural turf comparison",
+    "idealFor": "Ideal for",
+    "naturalDetails": {
+      "bermuda": {
+        "idealFor": [
+          "Sunny lawns",
+          "High-traffic areas",
+          "Fast regrowth"
+        ],
+        "notes": [
+          "Requires regular trimming",
+          "Likes full sun"
+        ],
+        "compare": "Compared to Kikuyu, it looks finer; compared to Paspalum, it is more heat-resistant."
+      },
+      "kikuyu": {
+        "idealFor": [
+          "Dense coverage",
+          "Active gardens",
+          "Family spaces"
+        ],
+        "notes": [
+          "Fast growth",
+          "Needs edging to control spread"
+        ],
+        "compare": "Compared to Bermuda, it is thicker; compared to Paspalum, it is more vigorous."
+      },
+      "paspalum": {
+        "idealFor": [
+          "Premium lawns",
+          "Coastal zones",
+          "Showcase gardens"
+        ],
+        "notes": [
+          "Prefers good watering",
+          "Premium finish"
+        ],
+        "compare": "Compared to Bermuda, it looks richer; compared to Kikuyu, it is more refined."
+      }
+    },
+    "artificialCompareTitle": "Artificial turf comparison",
+    "comfort": "Comfort",
+    "durability": "Durability",
+    "usage": "Recommended use",
+    "artificialDetails": {
+      "mm15": {
+        "comfort": "Low",
+        "durability": "High",
+        "usage": "Terraces, balconies"
+      },
+      "mm20": {
+        "comfort": "Medium",
+        "durability": "High",
+        "usage": "Gardens, patios"
+      },
+      "mm30": {
+        "comfort": "High",
+        "durability": "Medium",
+        "usage": "Lounge areas, villas"
+      },
+      "mm40": {
+        "comfort": "Very high",
+        "durability": "Medium",
+        "usage": "Luxury gardens"
+      }
+    },
+    "plantsTitle": "Plant info (selection)",
+    "care": "Care",
+    "plantDetails": {
+      "zaitoun": {
+        "where": "Best in full sun with airy soil.",
+        "care": "Low"
+      }
+    },
+    "ctaCatalog": "See the catalog",
+    "ctaContact": "Contact us"
   },
   "contact": {
     "title": "Contact",

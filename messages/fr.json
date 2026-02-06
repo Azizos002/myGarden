@@ -201,7 +201,7 @@
       "unit": "unité",
       "quote": "devis"
     },
-    "priceValue": "À partir de {value} TND / {type}",
+    "priceValue": "{value} TND / {type}",
     "cta": "Demander un devis"
   },
   "products": {
@@ -264,41 +264,6 @@
       "name": "Oliviers (Zaitoun)",
       "short": "Oliviers méditerranéens pour jardins tunisiens.",
       "long": "Oliviers sélectionnés avec livraison et mise en place."
-    },
-    "plantsCocos": {
-      "name": "Coconut Palm",
-      "short": "Decorative palm tree for a tropical garden look.",
-      "long": "Coconut palm suitable for outdoor landscaping, with delivery and installation available upon request."
-    },
-    "plantsStrelitzia": {
-      "name": "Strelitzia",
-      "short": "Plante décorative premium au style tropical et feuilles larges.",
-      "long": "Strelitzia (Oiseau de paradis) idéale pour jardin et terrasse, supporte le soleil ou la mi-ombre, avec livraison et installation disponibles sur demande."
-    },
-    "plantsPalmierRoyale": {
-      "name": "Palmier Royal",
-      "short": "Palmier premium qui apporte une touche élégante à votre jardin.",
-      "long": "Palmier Royal idéal pour villas et espaces extérieurs, résistant au soleil et parfait pour un aménagement haut de gamme, avec livraison et installation sur demande."
-    },
-    "plantsYuccaPanache": {
-      "name": "Yucca Panaché",
-      "short": "Yucca décoratif aux feuilles panachées, très résistant à la chaleur.",
-      "long": "Le Yucca Panaché est une plante extérieure élégante et résistante au manque d’eau, idéale pour jardins et terrasses en Tunisie, avec livraison et installation sur demande."
-    },
-    "plantsYuccaNormal": {
-      "name": "Yucca",
-      "short": "Plante résistante et facile d’entretien, idéale pour jardin et terrasse.",
-      "long": "Le Yucca est une plante décorative très résistante à la chaleur et au manque d’eau, parfaite pour l’extérieur en Tunisie, avec livraison et installation sur demande."
-    },
-    "plantsStrelitziaReginae": {
-      "name": "Strelitzia reginae",
-      "short": "Oiseau de paradis nain, plante décorative tropicale avec floraison élégante.",
-      "long": "Strelitzia reginae (oiseau de paradis nain) est idéale pour jardins et terrasses, supporte le soleil ou la mi-ombre, avec livraison et installation disponibles sur demande."
-    },
-    "plantsDracaena": {
-      "name": "Dracaena",
-      "short": "Plante décorative élégante et facile d’entretien, adaptée au soleil ou à la mi-ombre.",
-      "long": "Le Dracaena (Dragon Tree) est idéal pour jardin et terrasse, résistant à la chaleur et parfait pour un style moderne, avec livraison et installation sur demande."
     }
   },
   "services": {
@@ -359,38 +324,115 @@
     ]
   },
   "pricing": {
-    "title": "Tarifs",
-    "subtitle": "Des packs clairs pour chaque budget.",
-    "cta": "Demander un devis",
-    "plans": [
-      {
-        "title": "Starter",
-        "price": "À partir de 29 TND / m²",
-        "features": [
-          "Préparation",
-          "Gazon naturel ou artificiel",
-          "Livraison"
+    "title": "Comparaisons & Conseils",
+    "subtitle": "Des repères pour choisir le bon gazon et les bonnes plantes.",
+    "chooseTitle": "Choisir son gazon",
+    "strengths": "Points forts",
+    "notes": "À savoir",
+    "choose": {
+      "natural": {
+        "title": "Gazon naturel",
+        "strengths": [
+          "Rendu naturel",
+          "Confort sous le pied",
+          "Surface plus fraîche"
+        ],
+        "notes": [
+          "Besoin d’arrosage",
+          "Entretien saisonnier",
+          "Meilleur en plein soleil"
         ]
       },
-      {
-        "title": "Premium",
-        "price": "À partir de 45 TND / m²",
-        "features": [
-          "Gazon + plantes",
-          "Irrigation",
-          "Installation"
-        ]
-      },
-      {
-        "title": "Signature",
-        "price": "Sur devis",
-        "features": [
-          "Design personnalisé",
-          "Éclairage",
-          "Entretien"
+      "artificial": {
+        "title": "Gazon artificiel",
+        "strengths": [
+          "Entretien réduit",
+          "Toujours vert",
+          "Finition propre"
+        ],
+        "notes": [
+          "Peut chauffer au soleil",
+          "Préparation du sol nécessaire",
+          "Brossage occasionnel"
         ]
       }
-    ]
+    },
+    "naturalCompareTitle": "Comparaison des gazons naturels",
+    "idealFor": "Idéal pour",
+    "naturalDetails": {
+      "bermuda": {
+        "idealFor": [
+          "Jardins ensoleillés",
+          "Passage fréquent",
+          "Repousse rapide"
+        ],
+        "notes": [
+          "Tonte régulière",
+          "Aime le plein soleil"
+        ],
+        "compare": "Par rapport au Kikuyu, il est plus fin ; face au Paspalum, il est plus résistant à la chaleur."
+      },
+      "kikuyu": {
+        "idealFor": [
+          "Couverture dense",
+          "Jardins actifs",
+          "Espaces familiaux"
+        ],
+        "notes": [
+          "Croissance rapide",
+          "Bordures à maîtriser"
+        ],
+        "compare": "Par rapport au Bermuda, il est plus épais ; face au Paspalum, il est plus vigoureux."
+      },
+      "paspalum": {
+        "idealFor": [
+          "Pelouses premium",
+          "Zones côtières",
+          "Jardins vitrine"
+        ],
+        "notes": [
+          "Arrosage régulier",
+          "Finition haut de gamme"
+        ],
+        "compare": "Par rapport au Bermuda, il paraît plus riche ; face au Kikuyu, il est plus raffiné."
+      }
+    },
+    "artificialCompareTitle": "Comparaison gazon artificiel",
+    "comfort": "Confort",
+    "durability": "Résistance",
+    "usage": "Usage recommandé",
+    "artificialDetails": {
+      "mm15": {
+        "comfort": "Faible",
+        "durability": "Élevée",
+        "usage": "Terrasses, balcons"
+      },
+      "mm20": {
+        "comfort": "Moyen",
+        "durability": "Élevée",
+        "usage": "Jardins, patios"
+      },
+      "mm30": {
+        "comfort": "Élevé",
+        "durability": "Moyenne",
+        "usage": "Espaces lounge, villas"
+      },
+      "mm40": {
+        "comfort": "Très élevé",
+        "durability": "Moyenne",
+        "usage": "Jardins premium"
+      }
+    },
+    "plantsTitle": "Infos plantes (sélection)",
+    "care": "Entretien",
+    "plantDetails": {
+      "zaitoun": {
+        "where": "Idéal en plein soleil avec un sol aéré.",
+        "care": "Faible"
+      }
+    },
+    "ctaCatalog": "Voir le catalogue",
+    "ctaContact": "Nous contacter"
   },
   "contact": {
     "title": "Contact",
