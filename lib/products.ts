@@ -112,16 +112,40 @@ export const products: Product[] = [
     images: productImages['plants-zaitoun'],
     stockStatus: 'in_stock'
   },
+  // {
+  //   id: 'irrigation-smart',
+  //   category: 'service',
+  //   nameKey: 'irrigationSmart.name',
+  //   shortKey: 'irrigationSmart.short',
+  //   longKey: 'irrigationSmart.long',
+  //   priceType: 'quote',
+  //   priceValue: null,
+  //   tags: ['smart', 'water-saving'],
+  //   images: productImages['irrigation-smart'],
+  //   stockStatus: 'on_request'
+  // },
   {
-    id: 'irrigation-smart',
-    category: 'service',
-    nameKey: 'irrigationSmart.name',
-    shortKey: 'irrigationSmart.short',
-    longKey: 'irrigationSmart.long',
-    priceType: 'quote',
-    priceValue: null,
-    tags: ['smart', 'water-saving'],
-    images: productImages['irrigation-smart'],
-    stockStatus: 'on_request'
+    id: 'plants-zaitoun',
+    category: 'plants',
+    nameKey: 'plantsZaitoun.name',
+    shortKey: 'plantsZaitoun.short',
+    longKey: 'plantsZaitoun.long',
+    priceType: 'unit',
+    priceValue: 18,
+    tags: ['mediterranean', 'premium'],
+    images: productImages['plants-zaitoun'],
+    stockStatus: 'in_stock'
+  },
+  {
+    id: 'palmiers',
+    category: 'plants',
+    nameKey: 'plantsPalmiers.name',
+    shortKey: 'plantsPalmiers.short',
+    longKey: 'plantsPalmiers.long',
+    priceType: 'unit',
+    priceValue: 18,
+    tags: ['mediterranean', 'premium'],
+    images: productImages['plants-palmiers'],
+    stockStatus: 'in_stock'
   }
 ];
