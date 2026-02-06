@@ -123,7 +123,7 @@ export const products: Product[] = [
   //   tags: ['smart', 'water-saving'],
   //   images: productImages['irrigation-smart'],
   //   stockStatus: 'on_request'
-  // },
+  // }
   {
     id: 'plants-zaitoun',
     category: 'plants',
@@ -136,16 +136,4 @@ export const products: Product[] = [
     images: productImages['plants-zaitoun'],
     stockStatus: 'in_stock'
   },
-  {
-    id: 'palmiers',
-    category: 'plants',
-    nameKey: 'plantsPalmiers.name',
-    shortKey: 'plantsPalmiers.short',
-    longKey: 'plantsPalmiers.long',
-    priceType: 'unit',
-    priceValue: 18,
-    tags: ['mediterranean', 'premium'],
-    images: productImages['plants-palmiers'],
-    stockStatus: 'in_stock'
-  }
 ];

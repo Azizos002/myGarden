@@ -34,15 +34,15 @@ export const productImages: Record<string, string[]> = {
     '/images/produits/naturel/paspalum/1.jpg',
     '/images/produits/naturel/paspalum/2.jpg',
     '/images/produits/naturel/paspalum/3.jpg'
-  ],
-  'palmiers': [
-    '/images/produits/plantes/palmiers/1.jpeg',
-    '/images/produits/plantes/palmiers/2.jpeg',
-    '/images/produits/plantes/palmiers/3.jpeg',
-    '/images/produits/plantes/palmiers/4.jpeg',
-    '/images/produits/plantes/palmiers/5.jpeg'
-
   ]
+  // 'palmiers': [
+  //   '/images/produits/plantes/palmiers/1.jpeg',
+  //   '/images/produits/plantes/palmiers/2.jpeg',
+  //   '/images/produits/plantes/palmiers/3.jpeg',
+  //   '/images/produits/plantes/palmiers/4.jpeg',
+  //   '/images/produits/plantes/palmiers/5.jpeg'
+
+  // ]
 };
 
 // TODO: Replace the placeholder filenames above (1.jpg, 2.jpg, ...) with your real filenames.
