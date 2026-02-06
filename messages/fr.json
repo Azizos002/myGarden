@@ -1,0 +1,420 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "catalog": "Catalogue",
+    "services": "Services",
+    "projects": "Projets",
+    "pricing": "Tarifs",
+    "contact": "Contact"
+  },
+  "whatsapp": {
+    "cta": "Devis WhatsApp",
+    "defaultService": "services VerdaTun",
+    "prefillService": "Bonjour, je veux des infos pour: {service}. Ville: __. Surface: __ m²."
+  },
+  "seo": {
+    "homeTitle": "Gazon premium & plantes",
+    "homeDescription": "VerdaTun fournit gazon naturel, gazon artificiel, plantes et services paysagers en Tunisie.",
+    "catalogTitle": "Catalogue",
+    "catalogDescription": "Découvrez notre sélection locale de gazon naturel, gazon artificiel, plantes et irrigation.",
+    "servicesTitle": "Gazon, plantes & entretien jardins",
+    "servicesDescription": "Gazon naturel, gazon artificiel, plantes et entretien des jardins en Tunisie.",
+    "projectsTitle": "Projets",
+    "projectsDescription": "Nos dernières réalisations et transformations en Tunisie.",
+    "pricingTitle": "Tarifs",
+    "pricingDescription": "Des packs clairs pour chaque budget.",
+    "contactTitle": "Contact",
+    "contactDescription": "Contactez VerdaTun pour un devis ou une visite sur site.",
+    "legalTitle": "Mentions légales",
+    "legalDescription": "Mentions, confidentialité et conditions VerdaTun."
+  },
+  "common": {
+    "proofs": "Sélection locale | Livraison rapide | Conseil gratuit"
+  },
+  "home": {
+    "badge": "Tunisie • Espaces verts premium",
+    "headline": "Des espaces verts premium pour la Tunisie",
+    "subheadline": "Gazon naturel, gazon artificiel, plantes et entretien complet avec une finition haut de gamme.",
+    "primaryCta": "Demander un devis WhatsApp",
+    "secondaryCta": "Voir le catalogue",
+    "heroAlt": "Jardin élégant",
+    "categoriesTitle": "Nos catégories",
+    "seeAll": "Tout voir",
+    "discover": "Découvrir",
+    "categories": [
+      {
+        "title": "Gazon naturel",
+        "text": "Un gazon respirant et doux adapté au climat tunisien.",
+        "image": "/images/produits/naturel/1.jpg"
+      },
+      {
+        "title": "Gazon artificiel",
+        "text": "Une pelouse durable et toujours verte.",
+        "image": "/images/produits/artificiel/1.jpg"
+      },
+      {
+        "title": "Plantes & design",
+        "text": "Plantes méditerranéennes et design moderne.",
+        "image": "/images/produits/plantes/1.jpg"
+      }
+    ],
+    "whyTitle": "Pourquoi VerdaTun",
+    "whySubtitle": "Une expérience premium de la sélection à l’entretien.",
+    "why": {
+      "quality": {
+        "title": "Qualité premium",
+        "text": "Gazon et plantes sélectionnés pour une texture homogène."
+      },
+      "warranty": {
+        "title": "Suivi fiable",
+        "text": "Conseils et suivi après installation."
+      },
+      "delivery": {
+        "title": "Livraison rapide",
+        "text": "Livraison rapide pour Tunis, Sfax, Sousse et régions."
+      },
+      "installation": {
+        "title": "Pose experte",
+        "text": "Installation précise par notre équipe locale."
+      },
+      "irrigation": {
+        "title": "Irrigation intelligente",
+        "text": "Systèmes économes en eau pour l’été."
+      },
+      "care": {
+        "title": "Entretien continu",
+        "text": "Plans saisonniers pour un vert durable."
+      }
+    },
+    "packagesTitle": "Packs",
+    "packagesSubtitle": "Choisissez le niveau de finition que vous voulez.",
+    "packagesCta": "Demander les détails",
+    "packages": [
+      {
+        "title": "Essentiel",
+        "text": "Gazon naturel ou artificiel avec préparation du sol.",
+        "price": "À partir de 29 TND / m²"
+      },
+      {
+        "title": "Premium",
+        "text": "Gazon + plantations + irrigation intelligente.",
+        "price": "À partir de 45 TND / m²"
+      },
+      {
+        "title": "Signature",
+        "text": "Paysage sur mesure avec éclairage et entretien.",
+        "price": "Sur devis"
+      }
+    ],
+    "projectsTitle": "Projets récents",
+    "projectsSubtitle": "Transformations élégantes en Tunisie.",
+    "projects": [
+      {
+        "title": "Jardin villa, La Marsa",
+        "text": "Gazon naturel, palmiers et éclairage doux."
+      },
+      {
+        "title": "Patio hôtel, Hammamet",
+        "text": "Gazon artificiel pour des espaces toujours verts."
+      },
+      {
+        "title": "Cour privée, Sousse",
+        "text": "Plantes méditerranéennes avec goutte-à-goutte."
+      }
+    ],
+    "testimonialsTitle": "Avis clients",
+    "testimonialsSubtitle": "Des clients satisfaits partout en Tunisie.",
+    "testimonials": [
+      {
+        "name": "Meriem B.",
+        "city": "Tunis",
+        "quote": "Pose propre et résultat superbe même en été."
+      },
+      {
+        "name": "Walid K.",
+        "city": "Sfax",
+        "quote": "Livraison et installation en deux jours, très pro."
+      },
+      {
+        "name": "Hôtel Nour",
+        "city": "Hammamet",
+        "quote": "Un gazon artificiel premium et naturel."
+      }
+    ],
+    "ctaTitle": "Prêt à transformer votre espace vert ?",
+    "ctaSubtitle": "Contactez-nous pour un devis personnalisé.",
+    "ctaPrimary": "Commencer sur WhatsApp",
+    "ctaSecondary": "Planifier une visite",
+    "faqTitle": "FAQ",
+    "faqSubtitle": "Les réponses aux questions les plus fréquentes.",
+    "faq": [
+      {
+        "question": "Intervenez-vous hors de Tunis ?",
+        "answer": "Oui, nous couvrons les grandes villes et nous nous déplaçons partout en Tunisie."
+      },
+      {
+        "question": "Combien de temps dure l’installation ?",
+        "answer": "La plupart des projets se terminent en 2 à 5 jours selon la surface."
+      },
+      {
+        "question": "Peut-on combiner gazon et plantes ?",
+        "answer": "Bien sûr, nous créons des espaces mixtes avec gazon, plantes et irrigation."
+      }
+    ]
+  },
+  "catalog": {
+    "title": "Catalogue",
+    "subtitle": "Stock local, finitions premium et conseils dédiés.",
+    "search": "Rechercher",
+    "category": "Catégorie",
+    "tag": "Tags",
+    "sort": "Trier",
+    "all": "Tous",
+    "natural": "Naturel",
+    "artificial": "Artificiel",
+    "plants": "Plantes",
+    "service": "Services",
+    "allTags": "Tous les tags",
+    "sortOptions": {
+      "popular": "Populaire",
+      "priceLow": "Prix: bas à élevé",
+      "priceHigh": "Prix: élevé à bas"
+    },
+    "tags": {
+      "premium": "Premium",
+      "soft": "Doux",
+      "durable": "Durable",
+      "easy-care": "Entretien facile",
+      "mediterranean": "Méditerranéen",
+      "shade": "Ombre",
+      "smart": "Intelligent",
+      "water-saving": "Économie d'eau"
+    },
+    "status": {
+      "in_stock": "En stock",
+      "limited": "Stock limité",
+      "on_request": "Sur demande"
+    },
+    "priceOnRequest": "Prix sur demande",
+    "priceType": {
+      "sqm": "m²",
+      "unit": "unité",
+      "quote": "devis"
+    },
+    "priceValue": "{value} TND / {type}",
+    "cta": "Demander un devis"
+  },
+  "products": {
+    "naturalPremium": {
+      "name": "Gazon naturel premium",
+      "short": "Gazon naturel épais pour villas et hôtels.",
+      "long": "Gazon dense et respirant, idéal pour les jardins premium en Tunisie."
+    },
+    "artificialPro": {
+      "name": "Gazon artificiel pro",
+      "short": "Gazon artificiel doux et réaliste.",
+      "long": "Conçu pour les zones à fort passage avec peu d’entretien."
+    },
+    "plantsMediterranean": {
+      "name": "Pack plantes méditerranéennes",
+      "short": "Sélection de plantes adaptée au climat tunisien.",
+      "long": "Oliviers, romarin, bougainvilliers et plantes d’ombre faciles à vivre."
+    },
+    "irrigationSmart": {
+      "name": "Irrigation intelligente",
+      "short": "Arrosage optimisé pour jardins et pelouses.",
+      "long": "Planification automatique avec goutte-à-goutte et minuteries."
+    },
+    "naturalBermuda": {
+      "name": "Bermuda Grass",
+      "short": "Gazon Bermuda naturel dense et fin.",
+      "long": "Le Bermuda est idéal pour les jardins ensoleillés en Tunisie."
+    },
+    "naturalKikuyu": {
+      "name": "Kikuyu Grass",
+      "short": "Gazon naturel à croissance rapide et couverture épaisse.",
+      "long": "Le Kikuyu offre une bonne résistance aux passages fréquents."
+    },
+    "naturalPaspalum": {
+      "name": "Paspalum Grass",
+      "short": "Gazon naturel premium pour un vert durable.",
+      "long": "Le Paspalum convient aux pelouses haut de gamme et zones côtières."
+    },
+    "artificial15": {
+      "name": "Gazon artificiel 15mm",
+      "short": "Gazon synthétique compact pour espaces pratiques.",
+      "long": "Le 15mm est parfait pour terrasses et zones faciles à entretenir."
+    },
+    "artificial20": {
+      "name": "Gazon artificiel 20mm",
+      "short": "Bon équilibre entre douceur et finition propre.",
+      "long": "Le 20mm donne un rendu naturel avec peu d’entretien."
+    },
+    "artificial30": {
+      "name": "Gazon artificiel 30mm",
+      "short": "Fibres plus épaisses pour un rendu premium.",
+      "long": "Le 30mm offre plus de confort et un aspect lush."
+    },
+    "artificial40": {
+      "name": "Gazon artificiel 40mm",
+      "short": "Gazon ultra-doux pour jardins de prestige.",
+      "long": "Le 40mm apporte un effet haut de gamme et très confortable."
+    },
+    "plantsZaitoun": {
+      "name": "Oliviers (Zaitoun)",
+      "short": "Oliviers méditerranéens pour jardins tunisiens.",
+      "long": "Oliviers sélectionnés avec livraison et mise en place."
+    }
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "Trois catégories premium avec des livrables clairs et un contact rapide.",
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger",
+    "helper": "Envoyez-nous votre ville et la surface (m²) pour répondre plus vite.",
+    "imageFallback": "Image à ajouter",
+    "whatsappPrefill": "Bonjour, je veux des infos pour: {service}. Ville: __. Surface: __ m².",
+    "gazon": {
+      "title": "Gazon naturel & gazon artificiel",
+      "description": "Gazon naturel et gazon artificiel premium adaptés au climat tunisien.",
+      "bullets": [
+        "Préparation et nivellement du sol",
+        "Pose en rouleaux ou gazon synthétique",
+        "Finitions et bordures propres"
+      ]
+    },
+    "plants": {
+      "title": "Plantes",
+      "description": "Plantes méditerranéennes et décoratives sélectionnées pour vos jardins.",
+      "bullets": [
+        "Sélection et implantation",
+        "Amendement du sol et paillage",
+        "Livraison et mise en place"
+      ]
+    },
+    "maintenance": {
+      "title": "Entretien des jardins",
+      "description": "Un suivi régulier pour garder un jardin propre et en bonne santé.",
+      "bullets": [
+        "Taille saisonnière et nettoyage",
+        "Vérification et réglage de l’arrosage",
+        "Soins des pelouses et prévention"
+      ]
+    }
+  },
+  "projects": {
+    "title": "Projets",
+    "subtitle": "Nos réalisations récentes en Tunisie.",
+    "items": [
+      {
+        "title": "Lawn hôtel",
+        "text": "Gazon artificiel pour un espace toujours vert.",
+        "image": "/images/produits/artificiel/2.jpg"
+      },
+      {
+        "title": "Jardin familial",
+        "text": "Gazon naturel avec irrigation estivale.",
+        "image": "/images/produits/naturel/2.jpg"
+      },
+      {
+        "title": "Patio vert",
+        "text": "Plantes et aménagement méditerranéen.",
+        "image": "/images/produits/plantes/2.jpg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Tarifs",
+    "subtitle": "Des packs clairs pour chaque budget.",
+    "cta": "Demander un devis",
+    "plans": [
+      {
+        "title": "Starter",
+        "price": "À partir de 29 TND / m²",
+        "features": [
+          "Préparation",
+          "Gazon naturel ou artificiel",
+          "Livraison"
+        ]
+      },
+      {
+        "title": "Premium",
+        "price": "À partir de 45 TND / m²",
+        "features": [
+          "Gazon + plantes",
+          "Irrigation",
+          "Installation"
+        ]
+      },
+      {
+        "title": "Signature",
+        "price": "Sur devis",
+        "features": [
+          "Design personnalisé",
+          "Éclairage",
+          "Entretien"
+        ]
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Réponse rapide par WhatsApp ou téléphone.",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "city": "Ville",
+    "service": "Service",
+    "message": "Message",
+    "namePlaceholder": "Votre nom",
+    "phonePlaceholder": "+216...",
+    "cityPlaceholder": "Tunis, Sousse, Sfax...",
+    "servicePlaceholder": "Gazon, irrigation, plantes...",
+    "messagePlaceholder": "Décrivez votre espace",
+    "submit": "Envoyer",
+    "success": "Merci ! Nous vous contacterons rapidement.",
+    "error": "Champ obligatoire",
+    "infoTitle": "Coordonnées",
+    "address": "Avenue Habib Bourguiba, Tunis (exemple)",
+    "hours": "Lun-Sam • 08:00 - 19:00",
+    "mapPlaceholder": "Emplacement de la carte (sans clé)",
+    "successInline": "Merci ! Nous vous contacterons rapidement.",
+    "successTitle": "Merci pour votre demande",
+    "successClose": "Fermer",
+    "emailSubject": "Demande de contact VerdaTun",
+    "emailBody": "Nom: {name}\nTéléphone: {phone}\nVille: {city}\nService: {service}\nMessage: {message}"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "sections": [
+      {
+        "title": "Mentions",
+        "text": "Ce site est une vitrine pour VerdaTun en Tunisie."
+      },
+      {
+        "title": "Confidentialité",
+        "text": "Nous utilisons vos informations uniquement pour répondre à vos demandes."
+      },
+      {
+        "title": "Services",
+        "text": "Les devis dépendent d'une visite et d'une mesure sur site."
+      }
+    ]
+  },
+  "footer": {
+    "description": "Espaces verts premium, gazon et plantes avec expertise tunisienne.",
+    "phone": "+216 XX XXX XXX",
+    "address": "Tunis, Tunisie (exemple)",
+    "links": "Liens rapides",
+    "catalog": "Catalogue",
+    "services": "Services",
+    "projects": "Projets",
+    "legal": "Mentions",
+    "social": "Réseaux",
+    "share": "Partager VerdaTun",
+    "copyright": "© 2024 VerdaTun. Tous droits réservés."
+  },
+  "contactWidget": {
+    "whatsapp": "WhatsApp",
+    "messenger": "Messenger"
+  }
+}
