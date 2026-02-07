@@ -39,7 +39,8 @@ export const productImages: Record<string, string[]> = {
     '/images/produits/plantes/zaitoun/2.jpeg'
   ],
   'irrigation-smart': [
-    '/images/produits/entretien/1.jpg'
+    '/images/services/smart/1.png',
+    '/images/services/smart/2.jpg'
   ],
   'plants-cocos': [
     '/images/produits/plantes/cocos/1.jpeg',
