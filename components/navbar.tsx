@@ -47,7 +47,7 @@ export function Navbar() {
       <div className="container-pad flex h-16 items-center justify-between gap-4">
         <Link
           href={pathname.split("/").slice(0, 2).join("/") || "/"}
-          className="flex items-center gap-3"
+          className="flex items-center gap-2"
         >
           <Image
             src="/logo.svg"
@@ -57,7 +57,7 @@ export function Navbar() {
             priority
             className="h-10 w-auto"
           />
-          <h1 className="text-xl font-semibold">VerdaTun</h1>
+          <h1 className="text-l font-semibold">VerdaTun</h1>
         </Link>
         <nav className="hidden items-center gap-6 lg:flex">
           {navKeys.map((item) => (
