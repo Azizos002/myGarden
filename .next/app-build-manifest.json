@@ -16,30 +16,15 @@
       "static/css/app/layout.css",
       "static/chunks/app/layout.js"
     ],
-    "/[locale]/catalog/page": [
+    "/[locale]/review/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/catalog/page.js"
+      "static/chunks/app/[locale]/review/page.js"
     ],
-    "/[locale]/services/page": [
+    "/[locale]/compare-gazon/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/services/page.js"
-    ],
-    "/[locale]/projects/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/projects/page.js"
-    ],
-    "/[locale]/legal/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/legal/page.js"
-    ],
-    "/[locale]/contact/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/contact/page.js"
+      "static/chunks/app/[locale]/compare-gazon/page.js"
     ],
     "/_not-found/page": [
       "static/chunks/webpack.js",

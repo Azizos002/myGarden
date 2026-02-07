@@ -1,9 +1,6 @@
 {
   "/_not-found/page": "app/_not-found/page.js",
   "/[locale]/page": "app/[locale]/page.js",
-  "/[locale]/catalog/page": "app/[locale]/catalog/page.js",
-  "/[locale]/services/page": "app/[locale]/services/page.js",
-  "/[locale]/projects/page": "app/[locale]/projects/page.js",
-  "/[locale]/contact/page": "app/[locale]/contact/page.js",
-  "/[locale]/legal/page": "app/[locale]/legal/page.js"
+  "/[locale]/compare-gazon/page": "app/[locale]/compare-gazon/page.js",
+  "/[locale]/review/page": "app/[locale]/review/page.js"
 }

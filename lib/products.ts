@@ -23,7 +23,7 @@ export const products: Product[] = [
     shortKey: 'naturalBermuda.short',
     longKey: 'naturalBermuda.long',
     priceType: 'sqm',
-    priceValue: 35,
+    priceValue: 5,
     tags: ['premium', 'soft'],
     images: productImages['natural-bermuda'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
@@ -35,7 +35,7 @@ export const products: Product[] = [
     shortKey: 'naturalKikuyu.short',
     longKey: 'naturalKikuyu.long',
     priceType: 'sqm',
-    priceValue: 32,
+    priceValue: null,
     tags: ['soft', 'durable'],
     images: productImages['natural-kikuyu'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
@@ -47,7 +47,7 @@ export const products: Product[] = [
     shortKey: 'naturalPaspalum.short',
     longKey: 'naturalPaspalum.long',
     priceType: 'sqm',
-    priceValue: 38,
+    priceValue: 6,
     tags: ['premium', 'durable'],
     images: productImages['natural-paspalum'] ?? ['/placeholder.svg'],
     stockStatus: 'limited'
@@ -123,5 +123,89 @@ export const products: Product[] = [
     tags: ['smart', 'water-saving'],
     images: productImages['irrigation-smart'] ?? ['/placeholder.svg'],
     stockStatus: 'on_request'
-  }
+  },
+  {
+  id: 'plants-cocos',
+  category: 'plants',
+  nameKey: 'plantsCocos.name',
+  shortKey: 'plantsCocos.short',
+  longKey: 'plantsCocos.long',
+  priceType: 'unit',
+  priceValue: 250,
+  tags: ['tropical', 'decorative', 'outdoor'],
+  images: productImages['plants-cocos'] ?? ['/placeholder.svg'],
+  stockStatus: 'on_request'
+},
+{
+  id: 'plants-strelitzia',
+  category: 'plants',
+  nameKey: 'plantsStrelitzia.name',
+  shortKey: 'plantsStrelitzia.short',
+  longKey: 'plantsStrelitzia.long',
+  priceType: 'unit',
+  priceValue: 50,
+  tags: ['tropical', 'decorative', 'premium', 'outdoor'],
+  images: productImages['plants-strelitzia'] ?? ['/placeholder.svg'],
+  stockStatus: 'on_request'
+},
+{
+  id: 'plants-palmier-royale',
+  category: 'plants',
+  nameKey: 'plantsPalmierRoyale.name',
+  shortKey: 'plantsPalmierRoyale.short',
+  longKey: 'plantsPalmierRoyale.long',
+  priceType: 'unit',
+  priceValue: 350,
+  tags: ['palm', 'premium', 'decorative', 'outdoor', 'sun'],
+  images: productImages['plants-palmier-royale'] ?? ['/placerholder.svg'],
+  stockStatus: 'on_request'
+},
+{
+  id: 'plants-yucca-panache',
+  category: 'plants',
+  nameKey: 'plantsYuccaPanache.name',
+  shortKey: 'plantsYuccaPanache.short',
+  longKey: 'plantsYuccaPanache.long',
+  priceType: 'unit',
+  priceValue: 30,
+  tags: ['low-maintenance', 'drought-tolerant', 'premium', 'decorative', 'outdoor', 'sun'],
+  images: productImages['plants-yucca-panache'] ?? ['/placerholder.svg'],
+  stockStatus: 'in_stock'
+},
+{
+  id: 'plants-yucca-normal',
+  category: 'plants',
+  nameKey: 'plantsYuccaNormal.name',
+  shortKey: 'plantsYuccaNormal.short',
+  longKey: 'plantsYuccaNormal.long',
+  priceType: 'unit',
+  priceValue: 200,
+  tags: ['low-maintenance', 'drought-tolerant', 'decorative', 'outdoor', 'sun'],
+  images: productImages['plants-yucca-normal'] ?? ['/placerholder.svg'],
+  stockStatus: 'in_stock'
+},
+{
+  id: 'plants-strelitzia-reginae',
+  category: 'plants',
+  nameKey: 'plantsStrelitziaReginae.name',
+  shortKey: 'plantsStrelitziaReginae.short',
+  longKey: 'plantsStrelitziaReginae.long',
+  priceType: 'unit',
+  priceValue: 50,
+  tags: ['tropical', 'decorative', 'premium', 'outdoor', 'sun'],
+  images: productImages['plants-strelitzia-reginae'] ?? ['/placerholder.svg'],
+  stockStatus: 'in_stock'
+},
+{
+  id: 'plants-dracaena',
+  category: 'plants',
+  nameKey: 'plantsDracaena.name',
+  shortKey: 'plantsDracaena.short',
+  longKey: 'plantsDracaena.long',
+  priceType: 'unit',
+  priceValue: 200,
+  tags: ['decorative', 'premium', 'low-maintenance', 'outdoor', 'shade'],
+  images: productImages['plants-dracaena'] ?? ['/placerholder.svg'],
+  stockStatus: 'in_stock'
+}
 ];
