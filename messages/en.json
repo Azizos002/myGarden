@@ -2,6 +2,8 @@
   "nav": {
     "home": "Home",
     "catalog": "Catalogue",
+    "review": "Comparisons & Tips",
+    "compare": "Grass comparison",
     "services": "Services",
     "projects": "Projects",
     "pricing": "Pricing",
@@ -483,12 +485,184 @@
     "address": "Tunis, Tunisia (placeholder)",
     "links": "Quick links",
     "catalog": "Catalogue",
+    "review": "Comparisons & Tips",
+    "compare": "Grass comparison",
     "services": "Services",
     "projects": "Projects",
     "legal": "Legal",
     "social": "Social",
     "share": "Share VerdaTun",
     "copyright": "© 2024 VerdaTun. All rights reserved."
+  },
+  "review": {
+    "metaTitle": "Comparisons & tips",
+    "metaDescription": "Compare natural and artificial grass in Tunisia and get clear tips to choose the right turf and plants.",
+    "title": "Comparisons & Tips",
+    "subtitle": "Clear guidance to help you choose the right turf and plants for your space in Tunisia.",
+    "ctaCatalog": "View catalogue",
+    "ctaContact": "Contact us",
+    "chooseTitle": "Choose the right turf",
+    "advantages": "Advantages",
+    "bestFor": "Best for",
+    "notes": "Maintenance notes",
+    "choose": {
+      "natural": {
+        "title": "Natural grass",
+        "advantages": ["Fresh feel, soft underfoot", "Natural cooling effect in summer", "Authentic premium look"],
+        "bestFor": ["Residential gardens", "Villas and green spaces", "Clients who love real turf"],
+        "notes": ["Requires regular watering", "Seasonal care keeps it dense", "Best with sunlight exposure"]
+      },
+      "artificial": {
+        "title": "Artificial grass",
+        "advantages": ["Always green, all year", "Low water usage", "Easy cleaning and upkeep"],
+        "bestFor": ["Terraces and patios", "Commercial spaces and cafés", "Busy areas with frequent use"],
+        "notes": ["Occasional brushing recommended", "Rinse to remove dust", "Choose pile height by comfort needs"]
+      }
+    },
+    "naturalTeaserTitle": "Quick comparison of natural turf types",
+    "naturalTeaserCta": "See full comparison",
+    "maintenance": "Maintenance",
+    "sun": "Sun",
+    "naturalTeaser": {
+      "bermuda": {
+        "title": "Bermuda (American turf)",
+        "bestFor": ["Hot climates", "High traffic areas", "Sporty look"],
+        "maintenance": "Medium",
+        "sun": "Full sun",
+        "keyPoint": "Fast regrowth and strong resistance in summer."
+      },
+      "paspalum": {
+        "title": "Paspalum",
+        "bestFor": ["Coastal zones", "Salty water", "Premium resorts"],
+        "maintenance": "Medium",
+        "sun": "Full sun",
+        "keyPoint": "Excellent salt tolerance for seaside gardens."
+      },
+      "kikuyu": {
+        "title": "Kikuyu",
+        "bestFor": ["Family gardens", "Shaded edges", "Warm regions"],
+        "maintenance": "Medium to high",
+        "sun": "Partial to full sun",
+        "keyPoint": "Dense cover with good recovery after use."
+      }
+    },
+    "plantsTitle": "Plant tips (selection)",
+    "plants": [
+      {
+        "key": "catalog",
+        "title": "Olivier",
+        "positives": ["Drought resistant", "Mediterranean signature look"],
+        "where": "Best in full sun, patios, or garden entries.",
+        "care": "Water moderately after planting, then space out.",
+        "note": "Adds timeless elegance for villas and terraces."
+      },
+      {
+        "key": "yucca",
+        "title": "Yucca",
+        "positives": ["Very low maintenance", "Bold architectural style"],
+        "where": "Full sun or bright terrace corners.",
+        "care": "Light watering and well-drained soil.",
+        "note": "Perfect for modern, clean garden lines."
+      },
+      {
+        "key": "strelitzia",
+        "title": "Strelitzia",
+        "positives": ["Tropical statement plant", "Strong decorative leaves"],
+        "where": "Sunny patios or sheltered gardens.",
+        "care": "Regular watering in summer, protect from cold.",
+        "note": "Gives a premium resort vibe instantly."
+      },
+      {
+        "key": "palmier",
+        "title": "Palmier",
+        "positives": ["Iconic Mediterranean feel", "Great for entrances"],
+        "where": "Full sun, wide open spaces.",
+        "care": "Deep watering, remove dry fronds.",
+        "note": "Adds height and prestige to large gardens."
+      },
+      {
+        "key": "dracaena",
+        "title": "Dracaena",
+        "positives": ["Elegant vertical form", "Handles partial shade"],
+        "where": "Terraces or semi-shaded corners.",
+        "care": "Moderate watering and clean leaves.",
+        "note": "A refined choice for cafés and reception areas."
+      }
+    ],
+    "checklistTitle": "Client checklist",
+    "checklist": ["City or region", "Surface area", "Sun exposure", "Usage (kids/pets)", "Access to water"],
+    "checklistCta": "Send these details via WhatsApp or Messenger for a quick answer."
+  },
+  "compareGazon": {
+    "metaTitle": "Natural turf comparison",
+    "metaDescription": "Compare Bermuda, Paspalum, and Kikuyu turf types with clear pros, care levels, and recommendations.",
+    "title": "Comparison of natural turf in Tunisia",
+    "subtitle": "Bermuda (American), Paspalum, Kikuyu: which one fits your space?",
+    "ctaContact": "Ask for advice",
+    "ctaCatalog": "View catalogue",
+    "tableTitle": "Quick comparison table",
+    "columns": {
+      "bermuda": "Bermuda",
+      "paspalum": "Paspalum",
+      "kikuyu": "Kikuyu"
+    },
+    "tableRows": [
+      { "key": "heat", "label": "Heat resistance" },
+      { "key": "water", "label": "Water needs" },
+      { "key": "salt", "label": "Salt tolerance (coastal)" },
+      { "key": "density", "label": "Density / premium look" },
+      { "key": "growth", "label": "Growth speed" },
+      { "key": "trampling", "label": "Foot traffic tolerance" },
+      { "key": "maintenance", "label": "Maintenance level" }
+    ],
+    "table": {
+      "bermuda": {
+        "heat": "High",
+        "water": "Medium",
+        "salt": "Medium",
+        "density": "High",
+        "growth": "High",
+        "trampling": "High",
+        "maintenance": "Medium"
+      },
+      "paspalum": {
+        "heat": "High",
+        "water": "Medium",
+        "salt": "High",
+        "density": "High",
+        "growth": "Medium",
+        "trampling": "Medium",
+        "maintenance": "Medium"
+      },
+      "kikuyu": {
+        "heat": "Medium",
+        "water": "Medium",
+        "salt": "Low",
+        "density": "Medium",
+        "growth": "High",
+        "trampling": "High",
+        "maintenance": "Medium to high"
+      }
+    },
+    "recommendTitle": "When to choose each turf",
+    "recommend": {
+      "bermuda": {
+        "title": "Choose Bermuda if…",
+        "points": ["You want fast regrowth", "Your area gets intense sun", "You need strong resistance for frequent use"]
+      },
+      "paspalum": {
+        "title": "Choose Paspalum if…",
+        "points": ["You are near the sea", "You want a premium dense finish", "You need good salt tolerance"]
+      },
+      "kikuyu": {
+        "title": "Choose Kikuyu if…",
+        "points": ["You want vigorous coverage", "You need hardy lawn edges", "You have mixed sun and shade"]
+      }
+    },
+    "mythsTitle": "Myth clarification",
+    "mythsText": "“American turf” is a marketing term often used for Bermuda or premium blends. We guide you to the right type based on your site.",
+    "finalTitle": "Want the right choice?",
+    "finalText": "Share your city, surface, sun exposure, and usage, and we will recommend the best turf."
   },
   "contactWidget": {
     "whatsapp": "WhatsApp",

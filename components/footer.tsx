@@ -46,6 +46,16 @@ export function Footer() {
               </Link>
             </li>
             <li>
+              <Link href={`/${locale}/review`} className="hover:text-primary">
+                {t('review')}
+              </Link>
+            </li>
+            <li>
+              <Link href={`/${locale}/compare-gazon`} className="hover:text-primary">
+                {t('compare')}
+              </Link>
+            </li>
+            <li>
               <Link href={`/${locale}/services`} className="hover:text-primary">
                 {t('services')}
               </Link>

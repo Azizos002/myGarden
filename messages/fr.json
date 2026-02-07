@@ -2,6 +2,8 @@
   "nav": {
     "home": "Accueil",
     "catalog": "Catalogue",
+    "review": "Comparaisons & Conseils",
+    "compare": "Comparatif gazon",
     "services": "Services",
     "projects": "Projets",
     "pricing": "Tarifs",
@@ -483,12 +485,184 @@
     "address": "Tunis, Tunisie (exemple)",
     "links": "Liens rapides",
     "catalog": "Catalogue",
+    "review": "Comparaisons & Conseils",
+    "compare": "Comparatif gazon",
     "services": "Services",
     "projects": "Projets",
     "legal": "Mentions",
     "social": "Réseaux",
     "share": "Partager VerdaTun",
     "copyright": "© 2024 VerdaTun. Tous droits réservés."
+  },
+  "review": {
+    "metaTitle": "Comparaisons & conseils",
+    "metaDescription": "Comparez gazon naturel et artificiel et recevez des conseils clairs pour choisir en Tunisie.",
+    "title": "Comparaisons & Conseils",
+    "subtitle": "Des repères simples pour choisir le bon gazon et les bonnes plantes en Tunisie.",
+    "ctaCatalog": "Voir le catalogue",
+    "ctaContact": "Nous contacter",
+    "chooseTitle": "Choisir le bon gazon",
+    "advantages": "Avantages",
+    "bestFor": "Idéal pour",
+    "notes": "À savoir",
+    "choose": {
+      "natural": {
+        "title": "Gazon naturel",
+        "advantages": ["Toucher frais et agréable", "Refroidit naturellement en été", "Rendu premium authentique"],
+        "bestFor": ["Jardins résidentiels", "Villas et espaces verts", "Amoureux du gazon naturel"],
+        "notes": ["Arrosage régulier nécessaire", "Entretien saisonnier recommandé", "Meilleur avec bon ensoleillement"]
+      },
+      "artificial": {
+        "title": "Gazon artificiel",
+        "advantages": ["Toujours vert", "Économie d'eau", "Entretien facile"],
+        "bestFor": ["Terrasses et patios", "Espaces commerciaux et cafés", "Zones très sollicitées"],
+        "notes": ["Brossage occasionnel", "Rinçage pour enlever la poussière", "Choisir la hauteur selon le confort"]
+      }
+    },
+    "naturalTeaserTitle": "Comparatif rapide des gazons naturels",
+    "naturalTeaserCta": "Voir le comparatif complet",
+    "maintenance": "Entretien",
+    "sun": "Soleil",
+    "naturalTeaser": {
+      "bermuda": {
+        "title": "Bermuda (gazon américain)",
+        "bestFor": ["Climats chauds", "Zones à passage", "Aspect sportif"],
+        "maintenance": "Moyen",
+        "sun": "Plein soleil",
+        "keyPoint": "Repousse rapide et excellente résistance en été."
+      },
+      "paspalum": {
+        "title": "Paspalum",
+        "bestFor": ["Zones côtières", "Eau salée", "Resorts premium"],
+        "maintenance": "Moyen",
+        "sun": "Plein soleil",
+        "keyPoint": "Très bonne tolérance au sel."
+      },
+      "kikuyu": {
+        "title": "Kikuyu",
+        "bestFor": ["Jardins familiaux", "Bords ombragés", "Régions chaudes"],
+        "maintenance": "Moyen à élevé",
+        "sun": "Mi-ombre à plein soleil",
+        "keyPoint": "Couverture dense et bonne reprise."
+      }
+    },
+    "plantsTitle": "Conseils plantes (sélection)",
+    "plants": [
+      {
+        "key": "catalog",
+        "title": "Olivier",
+        "positives": ["Résistant à la sécheresse", "Signature méditerranéenne"],
+        "where": "Idéal au plein soleil, terrasse, entrée.",
+        "care": "Arroser modérément au départ, puis espacer.",
+        "note": "Apporte une élégance intemporelle."
+      },
+      {
+        "key": "yucca",
+        "title": "Yucca",
+        "positives": ["Très peu d'entretien", "Style architectural"],
+        "where": "Plein soleil ou coins lumineux.",
+        "care": "Arrosage léger et sol drainant.",
+        "note": "Parfait pour un jardin moderne et épuré."
+      },
+      {
+        "key": "strelitzia",
+        "title": "Strelitzia",
+        "positives": ["Effet tropical", "Feuillage décoratif"],
+        "where": "Terrasse ensoleillée ou jardin abrité.",
+        "care": "Arrosage régulier en été, protéger du froid.",
+        "note": "Donne un style resort premium."
+      },
+      {
+        "key": "palmier",
+        "title": "Palmier",
+        "positives": ["Ambiance méditerranéenne", "Idéal pour les entrées"],
+        "where": "Plein soleil, grands espaces.",
+        "care": "Arrosage profond, enlever les palmes sèches.",
+        "note": "Ajoute hauteur et prestige."
+      },
+      {
+        "key": "dracaena",
+        "title": "Dracaena",
+        "positives": ["Silhouette élégante", "Supporte la mi-ombre"],
+        "where": "Terrasse ou angles mi-ombragés.",
+        "care": "Arrosage modéré et feuilles propres.",
+        "note": "Choix raffiné pour cafés et accueils."
+      }
+    ],
+    "checklistTitle": "Checklist client",
+    "checklist": ["Ville ou région", "Surface", "Exposition au soleil", "Usage (enfants/animaux)", "Accès à l'eau"],
+    "checklistCta": "Envoyez ces infos sur WhatsApp ou Messenger pour une réponse rapide."
+  },
+  "compareGazon": {
+    "metaTitle": "Comparatif gazons naturels",
+    "metaDescription": "Comparez Bermuda, Paspalum et Kikuyu avec des repères clairs et des recommandations.",
+    "title": "Comparatif des gazons naturels en Tunisie",
+    "subtitle": "Bermuda (américain), Paspalum, Kikuyu : lequel choisir ?",
+    "ctaContact": "Demander conseil",
+    "ctaCatalog": "Voir le catalogue",
+    "tableTitle": "Tableau comparatif rapide",
+    "columns": {
+      "bermuda": "Bermuda",
+      "paspalum": "Paspalum",
+      "kikuyu": "Kikuyu"
+    },
+    "tableRows": [
+      { "key": "heat", "label": "Résistance chaleur" },
+      { "key": "water", "label": "Besoin en eau" },
+      { "key": "salt", "label": "Tolérance au sel (côte)" },
+      { "key": "density", "label": "Densité / rendu premium" },
+      { "key": "growth", "label": "Vitesse de pousse" },
+      { "key": "trampling", "label": "Tolérance piétinement" },
+      { "key": "maintenance", "label": "Niveau d'entretien" }
+    ],
+    "table": {
+      "bermuda": {
+        "heat": "Élevé",
+        "water": "Moyen",
+        "salt": "Moyen",
+        "density": "Élevé",
+        "growth": "Élevé",
+        "trampling": "Élevé",
+        "maintenance": "Moyen"
+      },
+      "paspalum": {
+        "heat": "Élevé",
+        "water": "Moyen",
+        "salt": "Élevé",
+        "density": "Élevé",
+        "growth": "Moyen",
+        "trampling": "Moyen",
+        "maintenance": "Moyen"
+      },
+      "kikuyu": {
+        "heat": "Moyen",
+        "water": "Moyen",
+        "salt": "Faible",
+        "density": "Moyen",
+        "growth": "Élevé",
+        "trampling": "Élevé",
+        "maintenance": "Moyen à élevé"
+      }
+    },
+    "recommendTitle": "Quand choisir quoi ?",
+    "recommend": {
+      "bermuda": {
+        "title": "Choisir Bermuda si…",
+        "points": ["Vous voulez une repousse rapide", "Votre zone est très ensoleillée", "Vous avez un usage fréquent"]
+      },
+      "paspalum": {
+        "title": "Choisir Paspalum si…",
+        "points": ["Vous êtes proche de la mer", "Vous voulez un rendu très dense", "Vous avez besoin de tolérance au sel"]
+      },
+      "kikuyu": {
+        "title": "Choisir Kikuyu si…",
+        "points": ["Vous cherchez une couverture vigoureuse", "Vous avez des zones mixtes soleil/ombre", "Vous voulez un gazon robuste"]
+      }
+    },
+    "mythsTitle": "Clarification utile",
+    "mythsText": "Le “gazon américain” désigne souvent le Bermuda ou des mélanges premium. Nous conseillons selon votre site.",
+    "finalTitle": "Vous voulez faire le bon choix ?",
+    "finalText": "Partagez votre ville, surface, exposition et usage pour une recommandation claire."
   },
   "contactWidget": {
     "whatsapp": "WhatsApp",

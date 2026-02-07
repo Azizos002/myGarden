@@ -14,6 +14,8 @@ import { MESSENGER_URL, WHATSAPP_NUMBER } from '@/lib/constants';
 const navKeys = [
   { key: 'home', href: '' },
   { key: 'catalog', href: '/catalog' },
+  { key: 'review', href: '/review' },
+  { key: 'compare', href: '/compare-gazon' },
   { key: 'services', href: '/services' },
   { key: 'projects', href: '/projects' },
   { key: 'contact', href: '/contact' }

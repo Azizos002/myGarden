@@ -12,6 +12,8 @@ export type Locale = (typeof LOCALES)[number];
 export const ROUTES = [
   '',
   '/catalog',
+  '/review',
+  '/compare-gazon',
   '/services',
   '/projects',
   '/pricing',
