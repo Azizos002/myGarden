@@ -142,7 +142,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
           ))}
         </div>
       </section>
-
+{/* 
       <section className="container-pad space-y-10">
         <Reveal className="space-y-3">
           <h2 className="section-title">{t('packagesTitle')}</h2>
@@ -171,7 +171,7 @@ export default async function HomePage({ params }: { params: { locale: Locale } 
             </Card>
           ))}
         </div>
-      </section>
+      </section> */}
 
       <section className="container-pad space-y-8">
         <Reveal className="space-y-3">

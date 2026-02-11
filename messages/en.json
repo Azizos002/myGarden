@@ -190,7 +190,14 @@
       "mediterranean": "Mediterranean",
       "shade": "Shade",
       "smart": "Smart",
-      "water-saving": "Water saving"
+      "water-saving": "Water saving",
+      "outdoor": "",
+      "decorative": "",
+      "sun": "",
+      "palm": "",
+      "tropical": "",
+      "drought-tolerant": "",
+      "low-maintenance": ""
     },
     "status": {
       "in_stock": "In stock",
@@ -346,17 +353,17 @@
       {
         "title": "Resort lounge lawn",
         "text": "Artificial turf with smooth finishing for guests.",
-        "image": "/images/produits/artificiel/2.jpg"
+        "image": "/images/produits/artificiel/20mm/3.jpg"
       },
       {
         "title": "Family villa garden",
         "text": "Natural grass with irrigation for summer comfort.",
-        "image": "/images/produits/naturel/2.jpg"
+        "image": "/images/produits/naturel/paspalum/2.jpg"
       },
       {
         "title": "Green patio",
         "text": "Plants and pergola-ready spaces with premium soil.",
-        "image": "/images/produits/plantes/2.jpg"
+        "image": "/images/home/jardin1.jpg"
       }
     ]
   },

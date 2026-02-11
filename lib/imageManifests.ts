@@ -21,59 +21,58 @@ export const productImages: Record<string, string[]> = {
     '/images/produits/artificiel/40mm/3.jpg'
   ],
   'natural-bermuda': [
-    '/images/produits/naturel/bermuda-grass/1.webp',
+    '/images/produits/naturel/bermuda-grass/1.jpg',
     '/images/produits/naturel/bermuda-grass/2.jpg',
-    '/images/produits/naturel/bermuda-grass/2.webp',
+    '/images/produits/naturel/bermuda-grass/3.jpg',
   ],
   'natural-kikuyu': [
-    '/images/produits/naturel/kikuyu-grass/1.webp',
-    '/images/produits/naturel/kikuyu-grass/2.png',
+    '/images/produits/naturel/kikuyu-grass/1.jpg',
+    '/images/produits/naturel/kikuyu-grass/2.jpg',
     '/images/produits/naturel/kikuyu-grass/3.jpg'
   ],
   'natural-paspalum': [
+    '/images/produits/naturel/paspalum/1.jpg',
     '/images/produits/naturel/paspalum/2.jpg',
     '/images/produits/naturel/paspalum/3.jpg'
   ],
   'plants-zaitoun': [
-    '/images/produits/plantes/zaitoun/1.jpeg',
-    '/images/produits/plantes/zaitoun/2.jpeg'
+    '/images/produits/plantes/zaitoun/1.jpg',
+    '/images/produits/plantes/zaitoun/2.jpg',
+    '/images/produits/plantes/zaitoun/3.jpg',
+    '/images/produits/plantes/zaitoun/4.jpg',
+    '/images/produits/plantes/zaitoun/5.jpg'
   ],
   'irrigation-smart': [
     '/images/services/smart/1.png',
     '/images/services/smart/2.jpg'
   ],
   'plants-cocos': [
-    '/images/produits/plantes/cocos/1.jpeg',
-    '/images/produits/plantes/cocos/2.jpeg',
-    '/images/produits/plantes/cocos/3.jpeg',
-    '/images/produits/plantes/cocos/4.jpeg',
-    '/images/produits/plantes/cocos/5.jpeg'
+
   ],
   'plants-strelitzia': [
-    '/images/produits/plantes/strelitzia/1.jpeg',
-    '/images/produits/plantes/strelitzia/2.jpeg'
+    '/images/produits/plantes/strelitzia/1.jpg',
+    '/images/produits/plantes/strelitzia/2.jpg'
   ],
   'plants-palmier-royale': [
-    '/images/produits/plantes/palmiers/1.jpeg'
+    '/images/produits/plantes/palmiers/1.jpg'
   ],
   'plants-yucca-panache': [
-    '/images/produits/plantes/yucca/1p.jpeg',
-    '/images/produits/plantes/yucca/2p.jpeg'
+    '/images/produits/plantes/yucca/1p.jpg',
+    '/images/produits/plantes/yucca/2p.jpg'
   ],
   'plants-yucca-normal': [
-    '/images/produits/plantes/yucca/normal/1.jpeg',
-    '/images/produits/plantes/yucca/normal/2.jpeg',
-    '/images/produits/plantes/yucca/normal/3.jpeg'
+    '/images/produits/plantes/yucca/normal/1.jpg',
+    '/images/produits/plantes/yucca/normal/3.jpg'
   ],
   'plants-strelitzia-reginae': [
-    '/images/produits/plantes/strelitzia-reginae/0.jpeg',
-    '/images/produits/plantes/strelitzia-reginae/1.jpeg',
-    '/images/produits/plantes/strelitzia-reginae/2.jpeg',
-    '/images/produits/plantes/strelitzia-reginae/3.jpeg',
-    '/images/produits/plantes/strelitzia-reginae/4.jpeg'
+    '/images/produits/plantes/strelitzia-reginae/0.jpg',
+    '/images/produits/plantes/strelitzia-reginae/1.jpg',
+    '/images/produits/plantes/strelitzia-reginae/2.jpg'
+    // '/images/produits/plantes/strelitzia-reginae/3.jpg',
+    // '/images/produits/plantes/strelitzia-reginae/4.jpg'
   ],
   'plants-dracaena': [
-    '/images/produits/plantes/plants-dracaena/1.jpeg'
+    '/images/produits/plantes/plants-dracaena/1.jpg'
   ]
 };
 

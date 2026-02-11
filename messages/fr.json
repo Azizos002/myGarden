@@ -190,7 +190,14 @@
       "mediterranean": "Méditerranéen",
       "shade": "Ombre",
       "smart": "Intelligent",
-      "water-saving": "Économie d'eau"
+      "water-saving": "Économie d'eau",
+      "outdoor": "",
+      "decorative": "",
+      "sun": "",
+      "palm": "",
+      "tropical": "",
+      "drought-tolerant": "",
+      "low-maintenance": ""
     },
     "status": {
       "in_stock": "En stock",
@@ -346,17 +353,17 @@
       {
         "title": "Lawn hôtel",
         "text": "Gazon artificiel pour un espace toujours vert.",
-        "image": "/images/produits/artificiel/2.jpg"
+        "image": "/images/produits/artificiel/20mm/3.jpg"
       },
       {
         "title": "Jardin familial",
         "text": "Gazon naturel avec irrigation estivale.",
-        "image": "/images/produits/naturel/2.jpg"
+        "image": "/images/produits/naturel/paspalum/2.jpg"
       },
       {
         "title": "Patio vert",
         "text": "Plantes et aménagement méditerranéen.",
-        "image": "/images/produits/plantes/2.jpg"
+        "image": "/images/home/jardin1.jpg"
       }
     ]
   },

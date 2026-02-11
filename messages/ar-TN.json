@@ -190,7 +190,14 @@
       "mediterranean": "متوسطي",
       "shade": "ظل",
       "smart": "ذكي",
-      "water-saving": "يوفّر الماء"
+      "water-saving": "يوفّر الماء",
+      "outdoor":"",
+      "decorative":"",
+      "sun":"",
+      "palm":"",
+      "tropical":"",
+      "drought-tolerant":"",
+      "low-maintenance":""
     },
     "status": {
       "in_stock": "متوفر",
@@ -346,17 +353,17 @@
       {
         "title": "فضاء نزل",
         "text": "عشب صناعي فخم لفضاء ديما أخضر.",
-        "image": "/images/produits/artificiel/2.jpg"
+        "image": "/images/produits/artificiel/20mm/3.jpg"
       },
       {
         "title": "حديقة عائلية",
         "text": "عشب طبيعي مع ريّ لصيف مريح.",
-        "image": "/images/produits/naturel/2.jpg"
+        "image": "/images/produits/naturel/paspalum/2.jpg"
       },
       {
         "title": "باتيو أخضر",
         "text": "نباتات وتصميم متوسطي أنيق.",
-        "image": "/images/produits/plantes/2.jpg"
+        "image": "/images/home/jardin1.jpg"
       }
     ]
   },
