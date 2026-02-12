@@ -47,7 +47,7 @@ export const productImages: Record<string, string[]> = {
     '/images/services/smart/2.jpg'
   ],
   'plants-cocos': [
-
+    '/images/produits/plantes/cocos/1.jpg'
   ],
   'plants-strelitzia': [
     '/images/produits/plantes/strelitzia/1.jpg',
