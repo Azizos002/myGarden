@@ -191,13 +191,13 @@
       "shade": "Shade",
       "smart": "Smart",
       "water-saving": "Water saving",
-      "outdoor": "",
-      "decorative": "",
-      "sun": "",
-      "palm": "",
-      "tropical": "",
-      "drought-tolerant": "",
-      "low-maintenance": ""
+      "outdoor": "Outdoor",
+      "decorative": "Decorative",
+      "sun": "Full sun",
+      "palm": "Palm",
+      "tropical": "Tropical",
+      "drought-tolerant": "Drought tolerant",
+      "low-maintenance": "Low maintenance"
     },
     "status": {
       "in_stock": "In stock",

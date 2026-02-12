@@ -191,13 +191,13 @@
       "shade": "Ombre",
       "smart": "Intelligent",
       "water-saving": "Économie d'eau",
-      "outdoor": "",
-      "decorative": "",
-      "sun": "",
-      "palm": "",
-      "tropical": "",
-      "drought-tolerant": "",
-      "low-maintenance": ""
+      "outdoor": "Extérieur",
+      "decorative": "Décoratif",
+      "sun": "Plein soleil",
+      "palm": "Palmier",
+      "tropical": "Tropical",
+      "drought-tolerant": "Résistant à la sécheresse",
+      "low-maintenance": "Faible entretien"
     },
     "status": {
       "in_stock": "En stock",

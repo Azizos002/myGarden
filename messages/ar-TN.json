@@ -191,13 +191,14 @@
       "shade": "ظل",
       "smart": "ذكي",
       "water-saving": "يوفّر الماء",
-      "outdoor":"",
-      "decorative":"",
-      "sun":"",
-      "palm":"",
-      "tropical":"",
-      "drought-tolerant":"",
-      "low-maintenance":""
+      "outdoor": "خارجي",
+      "decorative": "ديكور",
+      "sun": "شمس مباشرة",
+      "palm": "نخلة",
+      "tropical": "استوائي",
+      "drought-tolerant": "يتحمّل العطش",
+      "low-maintenance": "صيانة قليلة"
+
     },
     "status": {
       "in_stock": "متوفر",
