@@ -23,7 +23,7 @@ export const products: Product[] = [
     shortKey: 'naturalBermuda.short',
     longKey: 'naturalBermuda.long',
     priceType: 'sqm',
-    priceValue: 5,
+    priceValue: 9,
     tags: ['premium', 'soft'],
     images: productImages['natural-bermuda'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
@@ -35,7 +35,7 @@ export const products: Product[] = [
     shortKey: 'naturalKikuyu.short',
     longKey: 'naturalKikuyu.long',
     priceType: 'sqm',
-    priceValue: null,
+    priceValue: 9,
     tags: ['soft', 'durable'],
     images: productImages['natural-kikuyu'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
@@ -47,7 +47,7 @@ export const products: Product[] = [
     shortKey: 'naturalPaspalum.short',
     longKey: 'naturalPaspalum.long',
     priceType: 'sqm',
-    priceValue: 6,
+    priceValue: 10,
     tags: ['premium', 'durable'],
     images: productImages['natural-paspalum'] ?? ['/placeholder.svg'],
     stockStatus: 'limited'
@@ -107,7 +107,7 @@ export const products: Product[] = [
     shortKey: 'plantsZaitoun.short',
     longKey: 'plantsZaitoun.long',
     priceType: 'unit',
-    priceValue: 18,
+    priceValue: null,
     tags: ['mediterranean', 'premium'],
     images: productImages['plants-zaitoun'] ?? ['/placeholder.svg'],
     stockStatus: 'in_stock'
@@ -131,7 +131,7 @@ export const products: Product[] = [
   shortKey: 'plantsCocos.short',
   longKey: 'plantsCocos.long',
   priceType: 'unit',
-  priceValue: 250,
+  priceValue: null,
   tags: ['tropical', 'decorative', 'outdoor'],
   images: productImages['plants-cocos'] ?? ['/placeholder.svg'],
   stockStatus: 'on_request'
@@ -143,7 +143,7 @@ export const products: Product[] = [
   shortKey: 'plantsStrelitzia.short',
   longKey: 'plantsStrelitzia.long',
   priceType: 'unit',
-  priceValue: 50,
+  priceValue: null,
   tags: ['tropical', 'decorative', 'premium', 'outdoor'],
   images: productImages['plants-strelitzia'] ?? ['/placeholder.svg'],
   stockStatus: 'on_request'
@@ -155,7 +155,7 @@ export const products: Product[] = [
   shortKey: 'plantsPalmierRoyale.short',
   longKey: 'plantsPalmierRoyale.long',
   priceType: 'unit',
-  priceValue: 350,
+  priceValue: null,
   tags: ['palm', 'premium', 'decorative', 'outdoor', 'sun'],
   images: productImages['plants-palmier-royale'] ?? ['/placerholder.svg'],
   stockStatus: 'on_request'
@@ -167,7 +167,7 @@ export const products: Product[] = [
   shortKey: 'plantsYuccaPanache.short',
   longKey: 'plantsYuccaPanache.long',
   priceType: 'unit',
-  priceValue: 30,
+  priceValue: null,
   tags: ['low-maintenance', 'drought-tolerant', 'premium', 'decorative', 'outdoor', 'sun'],
   images: productImages['plants-yucca-panache'] ?? ['/placerholder.svg'],
   stockStatus: 'in_stock'
@@ -179,7 +179,7 @@ export const products: Product[] = [
   shortKey: 'plantsYuccaNormal.short',
   longKey: 'plantsYuccaNormal.long',
   priceType: 'unit',
-  priceValue: 200,
+  priceValue: null,
   tags: ['low-maintenance', 'drought-tolerant', 'decorative', 'outdoor', 'sun'],
   images: productImages['plants-yucca-normal'] ?? ['/placerholder.svg'],
   stockStatus: 'in_stock'
@@ -191,7 +191,7 @@ export const products: Product[] = [
   shortKey: 'plantsStrelitziaReginae.short',
   longKey: 'plantsStrelitziaReginae.long',
   priceType: 'unit',
-  priceValue: 50,
+  priceValue: null,
   tags: ['tropical', 'decorative', 'premium', 'outdoor', 'sun'],
   images: productImages['plants-strelitzia-reginae'] ?? ['/placerholder.svg'],
   stockStatus: 'in_stock'
@@ -203,7 +203,7 @@ export const products: Product[] = [
   shortKey: 'plantsDracaena.short',
   longKey: 'plantsDracaena.long',
   priceType: 'unit',
-  priceValue: 200,
+  priceValue: null,
   tags: ['decorative', 'premium', 'low-maintenance', 'outdoor', 'shade'],
   images: productImages['plants-dracaena'] ?? ['/placerholder.svg'],
   stockStatus: 'in_stock'
